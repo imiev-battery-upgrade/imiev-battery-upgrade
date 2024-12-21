@@ -1,4 +1,6 @@
-# Step-by-step guide for upgrading the Mitsubishi i-MiEV battery:  
+# Mitsubishi i-MiEV Battery Upgrade Guide
+
+![i-MiEV](./miev.svg)
 
 ## Prerequisites:​
 
