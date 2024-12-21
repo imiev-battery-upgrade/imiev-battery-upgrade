@@ -1,4 +1,6 @@
-# Step-by-step Mitsubishi i-MiEV battery recelling guide  
+# Mitsubishi i-MiEV Battery Upgrade Guide
+
+![i-MiEV](./miev.svg)
 
 ## Prerequisites
 
