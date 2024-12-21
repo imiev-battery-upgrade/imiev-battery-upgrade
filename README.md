@@ -64,3 +64,6 @@ Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.ht
 - Document original wiring and connections.
 - The CAN bridge code is still being refined and improved.
 - Consider weather conditions as NMC cells are sensitive to charging/driving in freezing temperatures.
+
+## See also
+- https://openinverter.org/wiki/CAN_bus_with_Arduino_Due : Arduino CAN basics
