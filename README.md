@@ -68,3 +68,5 @@ Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.ht
 ## See also
 - https://openinverter.org/wiki/CAN_bus_with_Arduino_Due : Arduino CAN basics
 - https://savvycan.com/ : FOSS CAN sniffing software
+- https://github.com/collin80/can_common : FOSS can library
+- https://github.com/collin80/due_can : FOSS C++ canbus library for Arduino Due compatible boards
