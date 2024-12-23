@@ -7,10 +7,74 @@
 
 ## Prerequisites
 
-- high-voltage safety knowledge and equipment
-- basic mechanical and electrical skills
+- [High-voltage safety requirements](https://web.archive.org/web/20241222211352/http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/54/html/M154940710001501ENG.HTM):
+  - Required protective equipment (must comply with national legal requirements):
+    - Electric insulation helmet with shield/visor
+    - Electric insulation jacket
+    - Electric insulation trousers
+    - Electric insulation gloves (properly sized)
+    - Electric insulation boots
+  - Safety procedures knowledge:
+    - Understanding of high-voltage components (330V system):
+      - Traction battery
+    - Service plug safety:
+      - Proper removal/installation procedure
+      - 5-minute wait period after auxiliary battery disconnect
+      - Proper use of insulation gloves
+      - Verification of voltage discharge
+    - High-voltage shutdown verification:
+      - Use of high-voltage multimeter
+      - Verification points and procedures
+      - Expected voltage readings
+    - Emergency procedures:
+      - Actions when high voltage cannot be shut off
+    - Connector handling:
+      - Proper lock mechanism operation
+      - Damage inspection procedures
+      - Safe disconnection methods
+- Required skills and experience:
+  - Mechanical skills:
+    - Ability to safely lift and support vehicles
+    - Experience with automotive disassembly/reassembly
+    - Competence with hand tools and power tools
+    - Basic fabrication skills (if making custom bus bars)
+  - Electrical skills:
+    - Understanding of DC electrical systems and battery fundamentals
+    - Experience with high voltage safety procedures
+    - Ability to make proper electrical connections
+    - Competence with multimeter usage and electrical measurements
+    - Basic understanding of CAN bus systems
+    - Ability to identify and prevent short circuits
 - [Arduino Due](https://docs.arduino.cc/hardware/due/) or [CANFDuino](https://github.com/togglebit/CANFDuino) for CAN spoofing [US reseller](<https://copperhilltech.com/arduino/>)
-- proper tools and workspace ( TODO expand )
+- proper tools:
+  - Basic tools:
+    - Socket set with ratchets and extensions
+    - Wrenches (including ratcheting box wrench for pack removal)
+    - Screwdrivers
+    - Multimeter for voltage measurements
+    - Paint pen or nail polish for marking polarity
+  - Specialty tools:
+    - Putty knife (for separating adhesive parts)
+    - Dremel or rotary tool with deburring bit
+    - Hacksaw (if fabricating bus bars)
+    - Metal file or sandpaper for deburring
+    - M3 x 0.5 tap (for jumper fabrication)
+  - Safety equipment:
+    - High voltage insulated gloves
+    - Safety glasses
+    - Insulated tools rated for high voltage work
+  - Vehicle support:
+    - Floor jack
+    - Jack stands rated for vehicle weight
+    - Dollies for battery pack (recommended: two 30" x 18" dollies with 1000lb+ capacity)
+- workspace requirements:
+  - Clean, dry, covered area with good lighting
+  - Flat, level concrete floor for safe vehicle lifting
+  - Sufficient space around vehicle (minimum 3ft on all sides) for pack removal
+  - Workbench or table for module rebuilding
+  - ESD-safe work surface for electronics
+  - Good ventilation
+  - Temperature controlled environment (important for NMC battery work)
 
 ## Materials
 
