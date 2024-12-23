@@ -6,5 +6,6 @@
 - [ECU](https://en.wikipedia.org/wiki/Electronic_control_unit): electric control unit, [embedded system](https://en.wikipedia.org/wiki/Embedded_system) in [automotive electronics](https://en.wikipedia.org/wiki/Automotive_electronics) that controls one or more of the [electrical systems](https://en.wikipedia.org/wiki/Automotive_electronics#Types) or subsystems in a car
 - [ETACS](http://mitsipedia.info/index.php?title=ETACS): Electronic Total Automotive Control System, the hub for all the vehicle's electronic functions, using CAN an LIN bus
   - [see also](https://gearshifters.org/mitsubishi/what-is-etacs-mitsubishi/)
+- [EVSE](https://en.wikipedia.org/wiki/Charging_station) charging station
 - Lexia 3 diagbox: cheap diagnostic tool for Peugeot/Citroën, "all" authorised dealer tool capabilities 
 - MUT3: Mitsubishi dealer diagnostic tool, "multi use tester"
