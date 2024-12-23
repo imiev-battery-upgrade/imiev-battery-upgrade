@@ -18,7 +18,7 @@
 
 ### Hardware
 
-- cork/felt/corrogated plastic spacers for cell height adjustment ([details](https://5by9.net/prune_batteries/module_rebuild.html))
+- cork/felt/corrogated plastic spacers for cell height adjustment ([details](module_rebuild.md))
 - bus bars and jumper materials, either machined or diy
   - machined (3.2mm thick 6061 aluminum without tapped holes from SendCutSend)
     - 76x [l-shaped bus bar for 1233mm ctc battery cell](https://www.printables.com/model/1036239-l-shape-bus-bar-for-1233mm-ctc-battery-cell)
@@ -32,11 +32,11 @@
 
 ## Battery Pack Removal  
 
-Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.html](https://5by9.net/prune_batteries/pack_removal.html) .
+Follow the detailed guide at [pack_removal.md](./pack_removal.md) .
 
 ## Module rebuilding  
 
-- Follow the detailed guide at [https://5by9.net/prune\_batteries/module\_rebuild.html](https://5by9.net/prune_batteries/module_rebuild.html) .
+- Follow the detailed guide at [module_rebuild.md](./module_rebuild.md) .
 - Key steps include:
   - disassembling modules
   - modifying plastic cell holders
@@ -61,8 +61,8 @@ Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.ht
 
 ## Important Notes
 
-- Always follow proper high voltage safety procedures.
-- Take time to properly balance cells before installation if there are any that have varying voltages connect in parallel for a few days.
+- Always follow proper [high voltage safety procedures](https://web.archive.org/web/20241222211352/http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/54/html/M154940710001501ENG.HTM).
+- Take time to properly balance cells before installation if there are any that have varying voltages connect in parallel for a few days. (TODO: add details)
 - Document original wiring and connections.
 - The CAN bridge code is still being refined and improved.
 - Consider weather conditions as NMC cells are sensitive to charging/driving in freezing temperatures.
@@ -72,3 +72,11 @@ Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.ht
 - https://savvycan.com/ : FOSS CAN sniffing software
 - https://github.com/collin80/can_common : FOSS can library
 - https://github.com/collin80/due_can : FOSS C++ canbus library for Arduino Due compatible boards
+
+## Special Thanks
+
+- [jiminy](https://myimiev.com/members/jiminy.1606/) for bus bar design
+- [piev](https://myimiev.com/members/piev.2638/) for code and starting the main thread this is based on
+- [MickeyS70](https://myimiev.com/members/mickeys70.3536/) and son Nicholas for creating the detailed pack removal and module rebuild instructions
+- [toecheese](https://myimiev.com/members/toecheese.4279/) for context contributions to the repo
+
