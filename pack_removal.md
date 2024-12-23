@@ -15,10 +15,12 @@ The following describes a method to remove and reinstall the i-MiEV's traction b
     > [!WARNING]
     > The traction battery pack weighs ~500 pounds. Ensure that the vehicle is well-supported and the jack stands spread widely (both left-right and front-back) so that the car does not shift when removing or installing the pack.
 
-    [![](pack_removal.assets/P1140324.JPG)](https://5by9.net/prune_batteries/photos/orig/P1140324.JPG)
+    ![Vehicle front lifted on jack stands](pack_removal.assets/P1140324.JPG)
+
     *Front of vehicle lifted so rocker panel is 19.25" above the ground, which was the limit of the jack stands.*
 
-    [![](pack_removal.assets/P1140330.JPG)](https://5by9.net/prune_batteries/photos/orig/P1140330.JPG)
+    ![Vehicle rear lifted on jack stands](pack_removal.assets/P1140330.JPG)
+
     *Rear of vehicle lifted so rocker panel is 21" above the ground, which was the limit of the jack stands (supported at rear axle, not shown in photo).*
 
 ### Electrical Disconnection
@@ -33,25 +35,32 @@ The following describes a method to remove and reinstall the i-MiEV's traction b
 
 1. Remove four of the traction battery pack mounting bolts and replace them with threaded rods and nuts.
 
-    [![](pack_removal.assets/pack_bolts_to_remove.jpg)](https://5by9.net/prune_batteries/photos/orig/pack_bolts_to_remove.jpg)
+    ![Battery pack mounting points](pack_removal.assets/pack_bolts_to_remove.jpg)
+
     *Remove the four traction battery pack mounting bolts at the circled mount points (shown here from the top with the pack removed).*
 
-    [![](pack_removal.assets/threaded_rods.jpg)](https://5by9.net/prune_batteries/photos/orig/threaded_rods.jpg)
+    ![Threaded rods and hardware](pack_removal.assets/threaded_rods.jpg)
+
     *Obtain four [M12-1.25 threaded rods](https://www.clipsandfasteners.com/M12-1-25-x-1-Meter-Threaded-Rod-Class-4-6-Plain-p/bi-v34127.htm) that are approximately 0.5 meters long, a minimum of 6 [M12-1.25 nuts](https://www.clipsandfasteners.com/12mm-1-25-Din-934-Hex-Nut-Zinc-p/a14458.htm), and four fender washers.*
 
-    [![](pack_removal.assets/IMG_2802.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2802.JPG)
+    ![Threaded rod installation](pack_removal.assets/IMG_2802.JPG)
+
     *Replace each of the four removed traction battery pack mounting bolts with a threaded rod, washer, and nut. Ensure the rods are sufficiently threaded into the holes in the body to hold the weight of the pack. Snug the nuts so the threaded rod is supporting the traction battery pack.*
 
-    [![](pack_removal.assets/IMG_2805.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2805.JPG)
+    ![Front mounting point with rod](pack_removal.assets/IMG_2805.JPG)
+
     *Front traction battery pack mounting bolt replaced with threaded rod, washer, and nut.*
 
-    [![](pack_removal.assets/IMG_2804.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2804.JPG)
+    ![Rear mounting point with rod](pack_removal.assets/IMG_2804.JPG)
+
     *Rear traction battery pack mounting bolt replaced with threaded rod, washer, and nut.*
 
-    [![](pack_removal.assets/IMG_2880.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2880.JPG)
+    ![Using locked nuts to install rod](pack_removal.assets/IMG_2880.JPG)
+
     *If the rods can't be hand threaded into the body, two nuts can be locked against each other on the other end of the rod; the locked nuts can then be used to turn the rod into the body with a wrench.*
 
-    [![](pack_removal.assets/spacer.jpg)](https://5by9.net/prune_batteries/photos/orig/spacer.jpg)
+    ![Optional spacer installation](pack_removal.assets/spacer.jpg)
+
     *Optional: Include a spacer between the washer and nut (concept shown in inset using an 1/2 inch drive socket) to move the nut below the box beam. This will make it easier to turn the nut by allowing a wrench to move through a full 360 degrees.*
 
 ### Pack Lowering
@@ -65,46 +74,56 @@ The following describes a method to remove and reinstall the i-MiEV's traction b
     > [!WARNING]
     > Ensure that the rod does not turn and unthread from the body when turning a nut. If the rods can't be held from turning by hand, [lock two nuts](https://5by9.net/prune_batteries/pack_removal.html#lock-two-nuts) against each other and hold with a wrench.
 
-    [![](pack_removal.assets/IMG_2787.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2787.JPG)
+    ![Pack being lowered](pack_removal.assets/IMG_2787.JPG)
+
     *Pack partially lowered. This will be a slow process due to the fine thread on the rods. A ratcheting box wrench is helpful, but still an interference fit with the box beam. If a [spacer was added](https://5by9.net/prune_batteries/pack_removal.html#spacer) in the previous step to lower the nut below the box beam (not shown in photo), a wrench can be turned 360 degrees, which should expedite the process.*
 
 3. Optional: Use a jack to expedite lowering the pack.
 
     Iteratively supporting the weight of the pack with a jack, spinning down the nuts by hand, and then lowering the pack with the jack to the nuts may be faster.
 
-    [![](pack_removal.assets/IMG_2795.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2795.JPG)
+    ![Using jack to assist lowering](pack_removal.assets/IMG_2795.JPG)
+
     *Optional: Use a jack and a 2x4 to slightly lift the pack off the nuts. This allows hand spinning down the nuts, which is much faster than turning the nuts with a wrench under load, while still keeping the descent controlled. It may take several attempts to find the balance point when lifting with the jack (balance point is slightly towards the rear of the pack). Alternatively, multiple jacks can be used to avoid the balancing issue. For a controlled descent, lift the pack off the nuts, spin the nuts down a few inches, lower the pack onto the nuts, and repeat.*
 
 ### Final Removal
 
 1. Lower the pack onto dollies.
 
-    [![](pack_removal.assets/IMG_2781.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2781.JPG)
+    ![Dollies positioned under pack](pack_removal.assets/IMG_2781.JPG)
+
     *When approaching the height of the dollies, insert them under the pack. Two [Franklin 30 x 18 inch dollies](https://www.harborfreight.com/30-in-x-18-in-1000-lb-capacity-hardwood-dolly-58316.html) were used.*
 
-    [![](pack_removal.assets/IMG_2779.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2779.JPG)
+    ![Pack resting on dollies](pack_removal.assets/IMG_2779.JPG)
+
     *Pack resting on dollies. Nuts backed off so the threaded rods are no longer holding any weight.*
 
 2. Remove the rods from the body.
 
-    [![](pack_removal.assets/IMG_2774.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2774.JPG)
+    ![Removing rods from body](pack_removal.assets/IMG_2774.JPG)
+
     *Unscrew the rods from the body once they are no longer holding weight.*
 
-    [![](pack_removal.assets/IMG_2772.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2772.JPG)
+    ![Vehicle lifted for rod clearance](pack_removal.assets/IMG_2772.JPG)
+
     *Depending on the height of the jack stands, height of the dollies, and length of the rods, it may be necessary to temporarily lift the vehicle a small amount to get the clearance to remove the rod. Shown here with rear elevated an inch or two more with the jack.*
 
-    [![](pack_removal.assets/IMG_2770.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2770.JPG)
+    ![Rear rod removed](pack_removal.assets/IMG_2770.JPG)
+
     *Rear rod removed and vehicle lowered back on to jack stands. It can be seen that the rod was slightly too long to remove without further lifting the vehicle.*
 
 3. Roll the pack out from underneath the vehicle.
 
-    [![](pack_removal.assets/IMG_2767.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2767.JPG)
+    ![Tilting rods for clearance](pack_removal.assets/IMG_2767.JPG)
+
     *Tilt the rods so they clear the body of the vehicle.*
 
-    [![](pack_removal.assets/IMG_2758.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2758.JPG)
+    ![Rolling pack out](pack_removal.assets/IMG_2758.JPG)
+
     *Roll the pack out from underneath the vehicle, watching carefully for interference.*
 
-    [![](pack_removal.assets/IMG_2756.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2756.JPG)
+    ![Pack fully removed](pack_removal.assets/IMG_2756.JPG)
+
     *Pack removed.*
 
 ### Reinstallation
