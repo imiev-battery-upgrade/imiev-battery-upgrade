@@ -26,12 +26,12 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
 
 ## Procedure
 
-> **Warning**  
+> [!WARNING]
 > The pack contains high voltages and high current sources that may result in property damage, serious injury, or death. Adhere to the [PRECAUTIONS ON HOW TO USE THE HIGH-VOLTAGE VEHICLE](https://web.archive.org/web/20241222211352/http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/54/html/M154940710001501ENG.HTM) and other safety recommendations in the [service manual](https://web.archive.org/web/20241223155351/http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/index_M1.htm). Do not attempt the upgrade procedure if not trained/qualified, experienced, and comfortable working with high voltage, high current systems.
 
 ### Initial Disassembly
 
-1. See the [service manual](https://web.archive.org/web/20241223155351/http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/index_M1.htm) for instructions on removing and opening the pack (opening the pack is only covered in the 2017 manual, but the procedure should be similar for earlier years; see section 54D-BATTERY MANAGEMENT UNIT (BMU) AND TRACTION BATTERY in the table of contents).
+1. See the [service manual](https://web.archive.org/web/20241223155351/http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/index_M1.htm) for instructions on removing and opening the pack
 
     The pack consists of ten 8-cell modules and two 4-cell modules. An 8-cell module consists of two 4-cell modules. For this document, these will be referred to as modules (8 cells) and submodules (4 cells).
 
@@ -115,9 +115,9 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
 
 ### CMU and Battery Removal
 
-9. Remove the 4 screws attaching the CMU daughter board to the batteries.
+1. Remove the 4 screws attaching the CMU daughter board to the batteries.
 
-    > **Warning**  
+    > [!WARNING]
     > The circuit board is delicate. By comparison, the batteries have great mass. The reason for removing the screws now is so that any movement/shiftage of the batteries during disassembly doesn't result in a force that is transferred to and breaks the circuit board.
 
     1. [![](module_rebuild.assets/daughter_board_screws_removing.jpg)](https://5by9.net/prune_batteries/photos/orig/daughter_board_screws_removing.jpg)
@@ -128,7 +128,7 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
 
         Screws removed.
 
-10. Remove the top webbing of the battery cage.
+2. Remove the top webbing of the battery cage.
 
     Note that there is adhesive at the circular points. Care must be taken to avoid breaking the plastic when severing the adhesive.
 
@@ -152,7 +152,7 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
 
         Remove the top webbing, which is now only held on by plastic tabs.
 
-11. Remove the batteries from the cage.
+3. Remove the batteries from the cage.
 
     Push the cells out from the bottom. The batteries are a very tight fit and it will take some force. Tape and rubber spacers between the batteries mean all four batteries will likely move as an unit.
 
@@ -170,13 +170,13 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
         
 ### Battery Cage Preparation
 
-12. Mark the polarity on the inside of the battery cage. This will ease in reassembly and reduce the probability of an error.
+1. Mark the polarity on the inside of the battery cage. This will ease in reassembly and reduce the probability of an error.
 
     1. [![](module_rebuild.assets/battery_cage_polarity_inside.jpg)](https://5by9.net/prune_batteries/photos/orig/battery_cage_polarity_inside.jpg)
 
         Extend the polarity marks on the outside of the battery cage to the inside.
 
-13. Mark the polarity on the new batteries. This will ease in reassembly and reduce the probability of an error.
+2. Mark the polarity on the new batteries. This will ease in reassembly and reduce the probability of an error.
 
     1.  [![](module_rebuild.assets/IMG_2669.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2669.JPG)
 
@@ -186,7 +186,7 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
         
         A paint pen or nail polish work well for marking the polarity.
         
-14.  Remove ~2mm on each side of the battery cage base to accommodate the slightly longer, NMC batteries.
+3. Remove ~2mm on each side of the battery cage base to accommodate the slightly longer, NMC batteries.
 
     A snug fit is OK, as the batteries shouldn't rattle around. Too tight and there is danger of breaking the plastic cage or tearing the outer insulation of the battery when inserting.
     
@@ -234,7 +234,7 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
         
         Battery seated with no space between the bottom of the battery and the cage.
         
-15.  Add spacers to the bottom of the battery cage to elevate the new, shorter batteries 4mm.
+4. Add spacers to the bottom of the battery cage to elevate the new, shorter batteries 4mm.
 
     1.  [![](module_rebuild.assets/IMG_2625.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2625.JPG)
         
@@ -270,7 +270,7 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
         
 ### New Battery Installation
 
-16. Affix 4mm spacers between the batteries.
+1. Affix 4mm spacers between the batteries.
 
     1. [![](module_rebuild.assets/IMG_2640.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2640.JPG)
 
@@ -284,13 +284,13 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
 
         Shape of the spacer isn't critical. 1 1/2" x 1 1/2" was chosen as having approximately the same surface area (right) as the original spacer (left), while being a multiple of the 3/4" tape, which was the most economical to purchase.
 
-17. Install the batteries in the battery cage. Pay attention to polarity.
+2. Install the batteries in the battery cage. Pay attention to polarity.
 
     1. [![](module_rebuild.assets/IMG_2645.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2645.JPG)
 
         Ensure the batteries are fully seated and polarity is correct. Note the spacers between the batteries.
 
-18. Fabricate jumpers to attach the CMU to the batteries.
+3. Fabricate jumpers to attach the CMU to the batteries.
 
     Note: These jumpers serve as both electrical conductors for measuring the battery voltage and thermal conductors for measuring the battery temperature.
 
@@ -312,9 +312,9 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
 
 ### CMU and Bus Bar Installation
 
-19. Install jumpers and washers on battery terminals.
+1. Install jumpers and washers on battery terminals.
 
-    > **Warning**  
+    > [!WARNING]
     > Take care that the jumpers do not rotate and touch adjacent battery terminals, as this could cause a short circuit.
 
     1. [![](module_rebuild.assets/installing_jumpers.jpg)](https://5by9.net/prune_batteries/photos/orig/installing_jumpers.jpg)
@@ -325,21 +325,21 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
 
         Tip: Nuts can be tightened against the jumpers temporarily to keep the jumpers from rotating and shorting to adjacent terminals when the webbing is installed in the subsequent step.
 
-20. Install the plastic webbing and CMU on the battery cage.
+2. Install the plastic webbing and CMU on the battery cage.
 
-    > **Warning**  
+    > [!WARNING]
     > Take care that the jumpers do not rotate and touch adjacent battery terminals and cause a short circuit during this process. Once the webbing is on, the jumpers will no longer be able to touch adjacent terminals.
 
     1. [![](module_rebuild.assets/IMG_2650.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2650.JPG)
 
         Plastic webbing with CMU daughter board installed on battery cage.
 
-21. Align the jumpers with the holes in the CMU board and start the screws.
+3. Align the jumpers with the holes in the CMU board and start the screws.
 
-    > **Warning**  
+    > [!WARNING]
     > Do not tighten the screws yet to avoid transferring forces to the delicate board during the next steps of reassembly.
 
-    > **Warning**  
+    > [!WARNING]
     > With the webbing positioned via the plastic positioning tabs, the top of the jumpers should align with the bottom of the CMU board. If not, it may be necessary to adjust the shimming of the batteries. Non-neutral positioning may result in breaking the board later when the screws are tightened.
 
     1. [![](module_rebuild.assets/IMG_2652.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2652.JPG)
@@ -358,18 +358,18 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
 
         Screws installed but not tightened.
 
-22. Install the three bus bars and 6 nuts; tighten to specification.
+4. Install the three bus bars and 6 nuts; tighten to specification.
 
-    > **Warning**  
+    > [!WARNING]
     > Do not tighten a nut on a jumper unless there is a bus bar installed to prevent the torque from transferring to the jumper and the delicate CMU board.
     
     1.  [![](module_rebuild.assets/installing_bus_bars.jpg)](https://5by9.net/prune_batteries/photos/orig/installing_bus_bars.jpg)
         
         Install bus bars and nuts.
         
-23.  Tighten the CMU screws. Watch for the circuit board being stressed while tightening. Stop and adjust/realign if necessary to avoid breaking the delicate board.
+5. Tighten the CMU screws. Watch for the circuit board being stressed while tightening. Stop and adjust/realign if necessary to avoid breaking the delicate board.
 
-    > **Warning**  
+    > [!WARNING]
     > Do not tighten a CMU screw unless the jumper is well-supported (bus bar and nut, or just nut) on the battery terminal end. Else, the jumper will tilt down and stress the CMU board. If adding a terminal nut directly on top of a jumper, tighten only to finger tight to avoid transferring a large torque to the CMU board via the jumper.
     
     1.  [![](module_rebuild.assets/tightening_screws.jpg)](https://5by9.net/prune_batteries/photos/orig/tightening_screws.jpg)
@@ -378,13 +378,13 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
         
 ### Testing and Verification
 
-24. Measure the voltage of the submodule.
+1. Measure the voltage of the submodule.
 
     1. [![](module_rebuild.assets/IMG_2715.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2715.JPG)
 
         Voltage will depend on the state of charge of the cells, but should be approximately 4 \* 3.7 volts = 14.8 volts.
 
-25. Rebuild the second submodule in the same fashion.
+2. Rebuild the second submodule in the same fashion.
 
     1. [![](module_rebuild.assets/cmu_installing_jumpers.jpg)](https://5by9.net/prune_batteries/photos/orig/cmu_installing_jumpers.jpg)
 
@@ -392,7 +392,7 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
 
 ### Final Assembly
 
-26. Reinstall the bottom clam shell on both submodules.
+1. Reinstall the bottom clam shell on both submodules.
 
     1. [![](module_rebuild.assets/IMG_2687.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2687.JPG)
 
@@ -402,37 +402,37 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
 
         Bottom clam shell installed.
 
-27. Reinstall the cable between the CMU main board and daughter board.
+2. Reinstall the cable between the CMU main board and daughter board.
 
     1.  [![](module_rebuild.assets/IMG_2690.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2690.JPG)
 
         Installing the jumper cable.
         
-28.  Reinstall the bus bar between the two submodules. Tighten nuts according to specification.
+3. Reinstall the bus bar between the two submodules. Tighten nuts according to specification.
 
     1.  [![](module_rebuild.assets/bus_bar_between_submodules.jpg)](https://5by9.net/prune_batteries/photos/orig/bus_bar_between_submodules.jpg)
         
         Install the bus bar between the two submodules.
         
-29.  Reinstall the plastic cover.
+4. Reinstall the plastic cover.
 
     1.  [![](module_rebuild.assets/IMG_2694.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2694.JPG)
         
         Plastic cover reinstalled.
         
-30.  Check the voltage of the module.
+5. Check the voltage of the module.
 
     1.  [![](module_rebuild.assets/IMG_2695.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2695.JPG)
         
         Voltage will depend on the state of charge of the batteries, but should be approximately 8 \* 3.7 = 29.6 volts.
         
-31.  Reinstall the top metal clam shell.
+6. Reinstall the top metal clam shell.
 
     1.  [![](module_rebuild.assets/IMG_2697.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2697.JPG)
         
         Top clam shell snapped onto the plastic tabs.
         
-32.  Reinstall the mounting brackets to hold the top and bottom clam shells together.
+7. Reinstall the mounting brackets to hold the top and bottom clam shells together.
 
     Oversize holes result in the brackets having play on the studs, so it is recommended to not tighten the bracket nuts until fitting the module back into the pack.
     
@@ -444,4 +444,4 @@ The NMC (top) is slightly longer than the LEV50 (bottom).
         
         Right bracket reinstalled.
         
-33.  Reinstall the module in the pack, making sure to tighten the bracket nuts if they were left loose in the previous step.
+8. Reinstall the module in the pack, making sure to tighten the bracket nuts if they were left loose in the previous step.

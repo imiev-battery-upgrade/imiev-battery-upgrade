@@ -12,7 +12,7 @@ The following describes a method to remove and reinstall the i-MiEV's traction b
 
     In order for the traction battery pack to clear the body, the vehicle must be lifted significantly.
 
-    > **Warning**  
+    > [!WARNING]
     > The traction battery pack weighs ~500 pounds. Ensure that the vehicle is well-supported and the jack stands spread widely (both left-right and front-back) so that the car does not shift when removing or installing the pack.
 
     1. [![](pack_removal.assets/P1140324.JPG)](https://5by9.net/prune_batteries/photos/orig/P1140324.JPG)
@@ -25,7 +25,7 @@ The following describes a method to remove and reinstall the i-MiEV's traction b
 
 ### Electrical Disconnection
 
-2. Follow the [TRACTION BATTERY REMOVAL AND INSTALLATION](https://web.archive.org/web/20241204221210/http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/54/html/M154940130021501ENG.HTM) instructions in the service manual to:
+1. Follow the [TRACTION BATTERY REMOVAL AND INSTALLATION](https://web.archive.org/web/20241204221210/http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/54/html/M154940130021501ENG.HTM) instructions in the service manual to:
     1. Disconnect the 12 volt auxiliary battery.
     2. Disconnect the traction battery pack service plug.
     3. Remove the front and rear traction battery pack splash shields.
@@ -33,7 +33,7 @@ The following describes a method to remove and reinstall the i-MiEV's traction b
 
 ### Pack Support Installation
 
-3. Remove four of the traction battery pack mounting bolts and replace them with threaded rods and nuts.
+1. Remove four of the traction battery pack mounting bolts and replace them with threaded rods and nuts.
 
     1. [![](pack_removal.assets/pack_bolts_to_remove.jpg)](https://5by9.net/prune_batteries/photos/orig/pack_bolts_to_remove.jpg)
 
@@ -65,20 +65,20 @@ The following describes a method to remove and reinstall the i-MiEV's traction b
 
 ### Pack Lowering
 
-4. Remove the remaining 6 traction battery pack mounting bolts; the pack will remain in place, supported by the threaded rods and nuts.
+1. Remove the remaining 6 traction battery pack mounting bolts; the pack will remain in place, supported by the threaded rods and nuts.
 
-5. Lower the pack by loosening the nuts.
+2. Lower the pack by loosening the nuts.
 
     It is recommended to run all four nuts down the rods in small increments to keep the pack approximately level.
 
-    > **Warning**  
+    > [!WARNING]
     > Ensure that the rod does not turn and unthread from the body when turning a nut. If the rods can't be held from turning by hand, [lock two nuts](https://5by9.net/prune_batteries/pack_removal.html#lock-two-nuts) against each other and hold with a wrench.
 
     1. [![](pack_removal.assets/IMG_2787.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2787.JPG)
 
         Pack partially lowered. This will be a slow process due to the fine thread on the rods. A ratcheting box wrench is helpful, but still an interference fit with the box beam. If a [spacer was added](https://5by9.net/prune_batteries/pack_removal.html#spacer) in the previous step to lower the nut below the box beam (not shown in photo), a wrench can be turned 360 degrees, which should expedite the process.
 
-6. Optional: Use a jack to expedite lowering the pack.
+3. Optional: Use a jack to expedite lowering the pack.
 
     Iteratively supporting the weight of the pack with a jack, spinning down the nuts by hand, and then lowering the pack with the jack to the nuts may be faster.
 
@@ -88,7 +88,7 @@ The following describes a method to remove and reinstall the i-MiEV's traction b
 
 ### Final Removal
 
-7. Lower the pack onto dollies.
+1. Lower the pack onto dollies.
 
     1. [![](pack_removal.assets/IMG_2781.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2781.JPG)
 
@@ -98,7 +98,7 @@ The following describes a method to remove and reinstall the i-MiEV's traction b
 
         Pack resting on dollies. Nuts backed off so the threaded rods are no longer holding any weight.
 
-8. Remove the rods from the body.
+2. Remove the rods from the body.
 
     1. [![](pack_removal.assets/IMG_2774.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2774.JPG)
 
@@ -112,7 +112,7 @@ The following describes a method to remove and reinstall the i-MiEV's traction b
 
         Rear rod removed and vehicle lowered back on to jack stands. It can be seen that the rod was slightly too long to remove without further lifting the vehicle.
 
-9. Roll the pack out from underneath the vehicle.
+3. Roll the pack out from underneath the vehicle.
 
     1. [![](pack_removal.assets/IMG_2767.JPG)](https://5by9.net/prune_batteries/photos/orig/IMG_2767.JPG)
 
@@ -128,4 +128,4 @@ The following describes a method to remove and reinstall the i-MiEV's traction b
 
 ### Reinstallation
 
-10. Reinstall the pack by follow the same steps in reverse order.
+1. Reinstall the pack by follow the same steps in reverse order.
