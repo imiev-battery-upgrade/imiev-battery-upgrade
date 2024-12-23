@@ -4,10 +4,10 @@
 
 ## Prerequisites
 
--   high-voltage safety knowledge and equipment
--   basic mechanical and electrical skills
--   [Arduino Due](https://docs.arduino.cc/hardware/due/) or [CANFDuino](https://github.com/togglebit/CANFDuino) for CAN spoofing ( US reseller](https://copperhilltech.com/arduino/) )
--   proper tools and workspace ( TODO expand )
+- high-voltage safety knowledge and equipment
+- basic mechanical and electrical skills
+- [Arduino Due](https://docs.arduino.cc/hardware/due/) or [CANFDuino](https://github.com/togglebit/CANFDuino) for CAN spoofing [US reseller](<https://copperhilltech.com/arduino/>)
+- proper tools and workspace ( TODO expand )
 
 ## Materials
 
@@ -68,10 +68,11 @@ Follow the detailed guide at [pack_removal.md](./pack_removal.md) .
 - Consider weather conditions as NMC cells are sensitive to charging/driving in freezing temperatures.
 
 ## See also
-- https://openinverter.org/wiki/CAN_bus_with_Arduino_Due : Arduino CAN basics
-- https://savvycan.com/ : FOSS CAN sniffing software
-- https://github.com/collin80/can_common : FOSS can library
-- https://github.com/collin80/due_can : FOSS C++ canbus library for Arduino Due compatible boards
+
+- <https://openinverter.org/wiki/CAN_bus_with_Arduino_Due> : Arduino CAN basics
+- <https://savvycan.com/> : FOSS CAN sniffing software
+- <https://github.com/collin80/can_common> : FOSS can library
+- <https://github.com/collin80/due_can> : FOSS C++ canbus library for Arduino Due compatible boards
 
 ## Special Thanks
 
@@ -79,4 +80,3 @@ Follow the detailed guide at [pack_removal.md](./pack_removal.md) .
 - [piev](https://myimiev.com/members/piev.2638/) for code and starting the main thread this is based on
 - [MickeyS70](https://myimiev.com/members/mickeys70.3536/) and son Nicholas for creating the detailed pack removal and module rebuild instructions
 - [toecheese](https://myimiev.com/members/toecheese.4279/) for context contributions to the repo
-
