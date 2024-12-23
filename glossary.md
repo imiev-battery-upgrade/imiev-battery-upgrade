@@ -9,6 +9,7 @@
 - [ETACS](http://mitsipedia.info/index.php?title=ETACS): Electronic Total Automotive Control System, the hub for all the vehicle's electronic functions, using CAN an LIN bus
   - [see also](https://gearshifters.org/mitsubishi/what-is-etacs-mitsubishi/)
 - [EVSE](https://en.wikipedia.org/wiki/Charging_station) charging station
+- FSM: factory service manual, [1](http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/index_M1.htm), [2](https://jdmfsm.info/Auto/Japan/Mitsubishi/i-MiEV/Manuals/)
 - GOM: GuessOMeter, rough indication of the range left
 - Lexia 3 diagbox: cheap diagnostic tool for Peugeot/Citroën, "all" authorised dealer tool capabilities
 - [MUT III](https://web.archive.org/web/20240630100905/https://mitsubishitechinfo.com/epacarb/ver_30_NAS_M.U.T.3MANUAL.pdf): Mitsubishi dealer diagnostic tool, "multi use tester"
