@@ -1,4 +1,7 @@
-# Mitsubishi i-MiEV Battery Upgrade Guide
+# Mitsubishi i-MiEV Battery Upgrade
+
+> [!NOTE]
+> This is an unofficial guide created by community members. We are not affiliated with, endorsed by, or connected to Mitsubishi Motors Corporation in any way. "Mitsubishi" and "i-MiEV" are registered trademarks of Mitsubishi Motors Corporation. All trademarks are the property of their respective owners.
 
 ![i-MiEV](./miev.svg)
 
@@ -12,6 +15,9 @@
 ## Materials
 
 ### Battery Cells
+
+> [!WARNING]
+> NMC cells will be permanently damaged if charged (including regenerative braking) below 0°C (32°F). See [battery_chemistries.md](battery_chemistries.md) for more details and mitigation strategies.
 
 - 88x (or 80x for post-2012 iOn/C-Zero) CATL NMC 93Ah cells with M8 terminals recommended
 - Alibaba sources: [1](https://www.alibaba.com/product-detail/Starmax-High-Power-Catl-3-7V_1600752172388.html) [2](https://www.alibaba.com/product-detail/Brand-New-CATL-Ternary-Lithium-Ion_1600494889608.html) [3](https://www.xihobattery.com/products/catl-93ah-37v-nmc-prismatic-rechargeable-lithium-ion-battery) [4](https://www.alibaba.com/product-detail/subject_1600869468591.html)
@@ -63,9 +69,11 @@ Follow the detailed guide at [pack_removal.md](./pack_removal.md) .
 
 - Always follow proper [high voltage safety procedures](https://web.archive.org/web/20241222211352/http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/54/html/M154940710001501ENG.HTM).
 - Take time to properly balance cells before installation if there are any that have varying voltages connect in parallel for a few days. (TODO: add details)
+- **WARNING**: NMC cells will be permanently damaged if charged (including regenerative braking) below 0°C (32°F). See [battery_chemistries.md](battery_chemistries.md) for more details and mitigation strategies.
+- Always follow proper high voltage safety procedures.
+- Take time to properly balance cells before installation if there are any that have varying voltages connect in parallel for a few days.
 - Document original wiring and connections.
 - The CAN bridge code is still being refined and improved.
-- Consider weather conditions as NMC cells are sensitive to charging/driving in freezing temperatures.
 
 ## See also
 
