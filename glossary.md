@@ -16,4 +16,5 @@
 - [OBC](https://en.wikipedia.org/wiki/Charging_station): on board charger, the vehicle's builtin AC-> DC converter that helps charge the high voltage battery
 - [SoC](https://en.wikipedia.org/wiki/State_of_charge): battery state of charge, electric equivalent of a fuel gauge; in %
 - [SoH](https://en.wikipedia.org/wiki/State_of_health): battery state of health, compared to its ideal conditions/specifications; in %
+- [TPMS](https://en.wikipedia.org/wiki/Tire-pressure_monitoring_system): tire pressure monitoring system
 - VCI: vehicle communication interface, the connector hardware part of the Mitsubishi MUT III system; see also MUT III
