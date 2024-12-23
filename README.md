@@ -53,7 +53,7 @@ Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.ht
 ## CAN bridge setup  
 
 - Install Arduino Due or CANFDuino
-- Download latest code from (github?)
+- Download latest code from [can_bridge.ino](can_bridge.ino)
 - Connect to vehicle:
   - CAN0 to BMU pins 6 & 7
   - CAN1 to ECU
