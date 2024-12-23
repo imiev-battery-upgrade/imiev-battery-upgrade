@@ -8,4 +8,5 @@
   - [see also](https://gearshifters.org/mitsubishi/what-is-etacs-mitsubishi/)
 - [EVSE](https://en.wikipedia.org/wiki/Charging_station) charging station
 - Lexia 3 diagbox: cheap diagnostic tool for Peugeot/Citroën, "all" authorised dealer tool capabilities 
-- [MUT3](https://web.archive.org/web/20240630100905/https://mitsubishitechinfo.com/epacarb/ver_30_NAS_M.U.T.3MANUAL.pdf): Mitsubishi dealer diagnostic tool, "multi use tester"
+- [MUT III](https://web.archive.org/web/20240630100905/https://mitsubishitechinfo.com/epacarb/ver_30_NAS_M.U.T.3MANUAL.pdf): Mitsubishi dealer diagnostic tool, "multi use tester"
+- VCI: vehicle communication interface, the connector hardware part of the Mitsubishi MUT III system; see also MUT III
