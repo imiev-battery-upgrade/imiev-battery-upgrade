@@ -1,3 +1,5 @@
+# Glossary
+
 - [BMS](https://en.wikipedia.org/wiki/Battery_management_system): battery management system
 - [BMU](https://www.redwayess.com/understanding-the-role-of-bmu-in-energy-storage-systems-ess/): the heart of the BMS, in contact with the CAN bus
 - [CAN](https://en.wikipedia.org/wiki/CAN_bus) A controller area network is a vehicle bus standard designed for efficient communication primarily between electronic control units.
@@ -8,7 +10,7 @@
   - [see also](https://gearshifters.org/mitsubishi/what-is-etacs-mitsubishi/)
 - [EVSE](https://en.wikipedia.org/wiki/Charging_station) charging station
 - GOM: GuessOMeter, rough indication of the range left
-- Lexia 3 diagbox: cheap diagnostic tool for Peugeot/Citroën, "all" authorised dealer tool capabilities 
+- Lexia 3 diagbox: cheap diagnostic tool for Peugeot/Citroën, "all" authorised dealer tool capabilities
 - [MUT III](https://web.archive.org/web/20240630100905/https://mitsubishitechinfo.com/epacarb/ver_30_NAS_M.U.T.3MANUAL.pdf): Mitsubishi dealer diagnostic tool, "multi use tester"
 - [OBC](https://en.wikipedia.org/wiki/Charging_station): on board charger, the vehicle's builtin AC-> DC converter that helps charge the high voltage battery
 - [SoC](https://en.wikipedia.org/wiki/State_of_charge): battery state of charge, electric equivalent of a fuel gauge; in %
