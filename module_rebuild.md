@@ -239,8 +239,6 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
     > [!TIP]
     > Corrugated plastic is available in 4mm thickness and has some other nice properties: easy to cut, allows air circulation for cooling, and can often be obtained for free (as discarded sign boards from elections, etc.).
 
-    *Corrugated plastic is available in 4mm thickness and has some other nice properties: easy to cut, allows air circulation for cooling, and can often be obtained for free (as discarded sign boards from elections, etc.).*
-
     ![Side view of corrugated plastic](module_rebuild.assets/IMG_2626.JPG)
 
     *Side view of corrugated plastic.*
@@ -281,7 +279,7 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
     *3/4" wide foam-backed double sided tape.*
 
-    > Shape of the spacer isn't critical. 1 1/2" x 1 1/2" was chosen as having approximately the same surface area (right) as the original spacer (left), while being a multiple of the 3/4" tape, which was the most conomical to purchase](module_rebuild.assets/IMG_2644.JPG)
+    ![Shape of the spacer isn't critical. 1 1/2" x 1 1/2" was chosen as having approximately the same surface area (right) as the original spacer (left), while being a multiple of the 3/4" tape, which was the most conomical to purchase](module_rebuild.assets/IMG_2644.JPG)
 
     *Shape of the spacer isn't critical. 1 1/2" x 1 1/2" was chosen as having approximately the same surface area (right) as the original spacer (left), while being a multiple of the 3/4" tape, which was the most economical to purchase.*
 
@@ -318,11 +316,11 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
     > [!WARNING]
     > Take care that the jumpers do not rotate and touch adjacent battery terminals, as this could cause a short circuit.
 
-    ![Orient the CMU daughter board and battery cage based on the cut outs for the terminals. Add jumpers on the terminals that connect to the CMU board. Add washers on the remaining terminals](module_rebuild.assets/nstalling_jumpers.jpg)
+    ![Orient the CMU daughter board and battery cage based on the cut outs for the terminals. Add jumpers on the terminals that connect to the CMU board. Add washers on the remaining terminals](module_rebuild.assets/installing_jumpers.jpg)
 
     *Orient the CMU daughter board and battery cage based on the cut outs for the terminals. Add jumpers on the terminals that connect to the CMU board. Add washers on the remaining terminals.*
 
-    ![Tip: Nuts can be tightened against the jumpers temporarily to keep the jumpers from rotating and shorting to adjacent terminals when the webbing is installed in the subsequent step](module_rebuild.assets/MG_2712.JPG)
+    ![Tip: Nuts can be tightened against the jumpers temporarily to keep the jumpers from rotating and shorting to adjacent terminals when the webbing is installed in the subsequent step](module_rebuild.assets/IMG_2712.JPG)
 
     *Tip: Nuts can be tightened against the jumpers temporarily to keep the jumpers from rotating and shorting to adjacent terminals when the webbing is installed in the subsequent step.*
 
@@ -339,7 +337,7 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
     > [!WARNING]
     > Do not tighten the screws yet to avoid transferring forces to the delicate board during the next steps of reassembly.
-
+    
     > [!WARNING]
     > With the webbing positioned via the plastic positioning tabs, the top of the jumpers should align with the bottom of the CMU board. If not, it may be necessary to adjust the shimming of the batteries. Non-neutral positioning may result in breaking the board later when the screws are tightened.
 
@@ -347,11 +345,11 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
     *Align the threaded holes on the jumpers with the CMU board holes. A nut, no tighter than finger tight, can be used on the terminal to hold the jumper in place if necessary.*
 
-    ![Floating tabs on the circuit board allow for slight, independent movement of the batteries from the board. These are delicate. Too much stress or movement and these will break](module_rebuild.assets/ircuit_board_flex_front.jpg)
+    ![Floating tabs on the circuit board allow for slight, independent movement of the batteries from the board. These are delicate. Too much stress or movement and these will break](module_rebuild.assets/circuit_board_flex_front.jpg)
 
     *Floating tabs on the circuit board allow for slight, independent movement of the batteries from the board. These are delicate. Too much stress or movement and these will break. Shown here mounted to the original LEV 50.*
 
-    ![View of the floating tab from the back side of the circuit board (not visible at this point in assembly)
+    ![View of the floating tab from the back side of the circuit board (not visible at this point in assembly)](module_rebuild.assets/IMG_2729.JPG)
 
     *View of the floating tab from the back side of the circuit board (not visible at this point in assembly).*
 
@@ -411,7 +409,7 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
 3. Reinstall the bus bar between the two submodules. Tighten nuts according to specification.
 
-    ![Install the bus bar between the two submodules. Tighten nuts according to specification](module_rebuild.assets/bus_bar_between_submodules.jpg/bus_bar_between_submodules.jpg)
+    ![Install the bus bar between the two submodules. Tighten nuts according to specification](module_rebuild.assets/bus_bar_between_submodules.jpg)
 
     *Install the bus bar between the two submodules. Tighten nuts according to specification.*
 
