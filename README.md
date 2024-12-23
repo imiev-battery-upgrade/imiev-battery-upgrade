@@ -60,7 +60,7 @@
     - Metal file or sandpaper for deburring
     - M3 x 0.5 tap (for jumper fabrication)
   - Safety equipment:
-    - High voltage insulated gloves
+    - High voltage insulated gloves (properly sized)
     - Safety glasses
     - Insulated tools rated for high voltage work
   - Vehicle support:
@@ -150,5 +150,5 @@ Follow the detailed guide at [pack_removal.md](./pack_removal.md) .
 
 - [jiminy](https://myimiev.com/members/jiminy.1606/) for bus bar design
 - [piev](https://myimiev.com/members/piev.2638/) for code and starting the main thread this is based on
-- [MickeyS70](https://myimiev.com/members/mickeys70.3536/) and son Nicholas for creating the detailed pack removal and module rebuild instructions
+- [mradtke](https://myimiev.com/members/mradtke.1615/) and son Nicholas for creating the detailed pack removal and module rebuild instructions
 - [toecheese](https://myimiev.com/members/toecheese.4279/) for context contributions to the repo
