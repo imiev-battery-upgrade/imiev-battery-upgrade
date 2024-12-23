@@ -337,7 +337,7 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
     > [!WARNING]
     > Do not tighten the screws yet to avoid transferring forces to the delicate board during the next steps of reassembly.
-    
+
     > [!WARNING]
     > With the webbing positioned via the plastic positioning tabs, the top of the jumpers should align with the bottom of the CMU board. If not, it may be necessary to adjust the shimming of the batteries. Non-neutral positioning may result in breaking the board later when the screws are tightened.
 
