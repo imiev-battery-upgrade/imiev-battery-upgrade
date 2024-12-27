@@ -7,10 +7,10 @@
 
 ## Prerequisites
 
--   high-voltage safety knowledge and equipment
--   basic mechanical and electrical skills
--   [Arduino Due](https://docs.arduino.cc/hardware/due/) or [CANFDuino](https://github.com/togglebit/CANFDuino) for CAN spoofing ( US reseller](https://copperhilltech.com/arduino/) )
--   proper tools and workspace ( TODO expand )
+- high-voltage safety knowledge and equipment
+- basic mechanical and electrical skills
+- [Arduino Due](https://docs.arduino.cc/hardware/due/) or [CANFDuino](https://github.com/togglebit/CANFDuino) for CAN spoofing ( US reseller [Copperhill Tech](https://copperhilltech.com/arduino/) )
+- proper tools and workspace ( TODO expand )
 
 ## Materials
 
@@ -19,7 +19,10 @@
 > [!WARNING]
 > NMC cells will be permanently damaged if charged (including regenerative braking) below 0°C (32°F). See [battery_chemistries.md](battery_chemistries.md) for more details and mitigation strategies.
 
-- 88x (or 80x for post-2012 iOn/C-Zero) CATL NMC 93Ah cells with M8 terminals recommended
+> [!TIP]
+> When sourcing cells, carefully review the [battery terminal specifications](battery_terminals.md) to ensure compatibility and avoid common manufacturing issues.
+
+- 88x (or 80x for post-2012 iOn/C-Zero) CATL NMC 93Ah cells
 - Alibaba sources: [1](https://www.alibaba.com/product-detail/Starmax-High-Power-Catl-3-7V_1600752172388.html) [2](https://www.alibaba.com/product-detail/Brand-New-CATL-Ternary-Lithium-Ion_1600494889608.html) [3](https://www.xihobattery.com/products/catl-93ah-37v-nmc-prismatic-rechargeable-lithium-ion-battery) [4](https://www.alibaba.com/product-detail/subject_1600869468591.html)
 
 ### Hardware
@@ -27,7 +30,6 @@
 - cork/felt/corrogated plastic spacers for cell height adjustment ([details](https://5by9.net/prune_batteries/module_rebuild.html))
 - bus bars and jumper materials, either machined or diy
   - machined (3.2mm thick 6061 aluminum without tapped holes from SendCutSend)
-    - 76x [l-shaped bus bar for 1233mm ctc battery cell](https://www.printables.com/model/1036239-l-shape-bus-bar-for-1233mm-ctc-battery-cell)
     - 24x [i-shaped bus bar for 1233mm ctc battery cell for mi](https://www.printables.com/model/1036252-i-shape-bus-bar-for-1233mm-ctc-battery-cell-for-mi)
   - diy (follow 5by8.net guide)
     - [https://www.amazon.com/gp/product/B0BBDTQVYP/](https://www.amazon.com/gp/product/B0BBDTQVYP/?tag=forumyield-20)
@@ -40,7 +42,7 @@
 
 Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.html](https://5by9.net/prune_batteries/pack_removal.html) .
 
-## Module rebuilding  
+## Module rebuilding
 
 - Follow the detailed guide at [https://5by9.net/prune\_batteries/module\_rebuild.html](https://5by9.net/prune_batteries/module_rebuild.html) .
 - Key steps include:
@@ -74,7 +76,8 @@ Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.ht
 - The CAN bridge code is still being refined and improved.
 
 ## See also
-- https://openinverter.org/wiki/CAN_bus_with_Arduino_Due : Arduino CAN basics
-- https://savvycan.com/ : FOSS CAN sniffing software
-- https://github.com/collin80/can_common : FOSS can library
-- https://github.com/collin80/due_can : FOSS C++ canbus library for Arduino Due compatible boards
+
+- <https://openinverter.org/wiki/CAN_bus_with_Arduino_Due> : Arduino CAN basics
+- <https://savvycan.com/> : FOSS CAN sniffing software
+- <https://github.com/collin80/can_common> : FOSS can library
+- <https://github.com/collin80/due_can> : FOSS C++ canbus library for Arduino Due compatible boards
