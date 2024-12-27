@@ -29,8 +29,8 @@
 
 - cork/felt/corrogated plastic spacers for cell height adjustment ([details](https://5by9.net/prune_batteries/module_rebuild.html))
 - bus bars and jumper materials, either machined or diy
-  - machined (3.2mm thick 6061 aluminum without tapped holes from SendCutSend)
-    - 24x [i-shaped bus bar for 1233mm ctc battery cell for mi](https://www.printables.com/model/1036252-i-shape-bus-bar-for-1233mm-ctc-battery-cell-for-mi)
+  - machined
+    - There seem to be too much variation in cells, so it's not recommended to use the machined bus bars.
   - diy (follow 5by8.net guide)
     - [https://www.amazon.com/gp/product/B0BBDTQVYP/](https://www.amazon.com/gp/product/B0BBDTQVYP/?tag=forumyield-20)
 - Arduino Due or CANFDuino with CAN shields
@@ -81,3 +81,4 @@ Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.ht
 - <https://savvycan.com/> : FOSS CAN sniffing software
 - <https://github.com/collin80/can_common> : FOSS can library
 - <https://github.com/collin80/due_can> : FOSS C++ canbus library for Arduino Due compatible boards
+- <https://myimiev.com/threads/main-traction-battery-upgrade-i-miev.5458/> : i-MiEV battery upgrade thread where this guide was created
