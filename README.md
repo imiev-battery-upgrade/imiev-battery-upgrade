@@ -83,16 +83,18 @@
 > [!WARNING]
 > NMC cells will be permanently damaged if charged (including regenerative braking) below 0°C (32°F). See [battery_chemistries.md](battery_chemistries.md) for more details and mitigation strategies.
 
-- 88x (or 80x for post-2012 iOn/C-Zero) CATL NMC 93Ah cells with M8 terminals recommended
+> [!TIP]
+> When sourcing cells, carefully review the [battery terminal specifications](battery_terminals.md) to ensure compatibility and avoid common manufacturing issues.
+
+- 88x (or 80x for post-2012 iOn/C-Zero) CATL NMC 93Ah cells
 - Alibaba sources: [1](https://www.alibaba.com/product-detail/Starmax-High-Power-Catl-3-7V_1600752172388.html) [2](https://www.alibaba.com/product-detail/Brand-New-CATL-Ternary-Lithium-Ion_1600494889608.html) [3](https://www.xihobattery.com/products/catl-93ah-37v-nmc-prismatic-rechargeable-lithium-ion-battery) [4](https://www.alibaba.com/product-detail/subject_1600869468591.html)
 
 ### Hardware
 
 - cork/felt/corrogated plastic spacers for cell height adjustment ([details](module_rebuild.md))
 - bus bars and jumper materials, either machined or diy
-  - machined (3.2mm thick 6061 aluminum without tapped holes from SendCutSend)
-    - 76x [l-shaped bus bar for 1233mm ctc battery cell](https://www.printables.com/model/1036239-l-shape-bus-bar-for-1233mm-ctc-battery-cell)
-    - 24x [i-shaped bus bar for 1233mm ctc battery cell for mi](https://www.printables.com/model/1036252-i-shape-bus-bar-for-1233mm-ctc-battery-cell-for-mi)
+  - machined
+    - There seem to be too much variation in cells, so it's not recommended to use the machined bus bars.
   - diy (follow 5by8.net guide)
     - [https://www.amazon.com/gp/product/B0BBDTQVYP/](https://www.amazon.com/gp/product/B0BBDTQVYP/?tag=forumyield-20)
 - Arduino Due or CANFDuino with CAN shields
@@ -104,7 +106,7 @@
 
 Follow the detailed guide at [pack_removal.md](./pack_removal.md) .
 
-## Module rebuilding  
+## Module rebuilding
 
 - Follow the detailed guide at [module_rebuild.md](./module_rebuild.md) .
 - Key steps include:
@@ -117,7 +119,7 @@ Follow the detailed guide at [pack_removal.md](./pack_removal.md) .
 ## CAN bridge setup  
 
 - Install Arduino Due or CANFDuino
-- Download latest code from (github?)
+- Download latest code from [can_bridge.ino](can_bridge.ino)
 - Connect to vehicle:
   - CAN0 to BMU pins 6 & 7
   - CAN1 to ECU
@@ -145,6 +147,7 @@ Follow the detailed guide at [pack_removal.md](./pack_removal.md) .
 - <https://savvycan.com/> : FOSS CAN sniffing software
 - <https://github.com/collin80/can_common> : FOSS can library
 - <https://github.com/collin80/due_can> : FOSS C++ canbus library for Arduino Due compatible boards
+- <https://myimiev.com/threads/main-traction-battery-upgrade-i-miev.5458/> : i-MiEV battery upgrade thread where this guide was created
 
 ## Special Thanks
 
