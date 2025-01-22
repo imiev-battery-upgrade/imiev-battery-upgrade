@@ -7,10 +7,74 @@
 
 ## Prerequisites
 
-- high-voltage safety knowledge and equipment
-- basic mechanical and electrical skills
-- [Arduino Due](https://docs.arduino.cc/hardware/due/) or [CANFDuino](https://github.com/togglebit/CANFDuino) for CAN spoofing ( US reseller [Copperhill Tech](https://copperhilltech.com/arduino/) )
-- proper tools and workspace ( TODO expand )
+- [High-voltage safety requirements](https://web.archive.org/web/20241222211352/http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/54/html/M154940710001501ENG.HTM):
+  - Required protective equipment (must comply with national legal requirements):
+    - Electric insulation helmet with shield/visor
+    - Electric insulation jacket
+    - Electric insulation trousers
+    - Electric insulation gloves (properly sized)
+    - Electric insulation boots
+  - Safety procedures knowledge:
+    - Understanding of high-voltage components (330V system):
+      - Traction battery
+    - Service plug safety:
+      - Proper removal/installation procedure
+      - 5-minute wait period after auxiliary battery disconnect
+      - Proper use of insulation gloves
+      - Verification of voltage discharge
+    - High-voltage shutdown verification:
+      - Use of high-voltage multimeter
+      - Verification points and procedures
+      - Expected voltage readings
+    - Emergency procedures:
+      - Actions when high voltage cannot be shut off
+    - Connector handling:
+      - Proper lock mechanism operation
+      - Damage inspection procedures
+      - Safe disconnection methods
+- Required skills and experience:
+  - Mechanical skills:
+    - Ability to safely lift and support vehicles
+    - Experience with automotive disassembly/reassembly
+    - Competence with hand tools and power tools
+    - Basic fabrication skills (if making custom bus bars)
+  - Electrical skills:
+    - Understanding of DC electrical systems and battery fundamentals
+    - Experience with high voltage safety procedures
+    - Ability to make proper electrical connections
+    - Competence with multimeter usage and electrical measurements
+    - Basic understanding of CAN bus systems
+    - Ability to identify and prevent short circuits
+- [Arduino Due](https://docs.arduino.cc/hardware/due/) or [CANFDuino](https://github.com/togglebit/CANFDuino) for CAN spoofing [US reseller](<https://copperhilltech.com/arduino/>)
+- proper tools:
+  - Basic tools:
+    - Socket set with ratchets and extensions
+    - Wrenches (including ratcheting box wrench for pack removal)
+    - Screwdrivers
+    - Multimeter for voltage measurements
+    - Paint pen or nail polish for marking polarity
+  - Specialty tools:
+    - Putty knife (for separating adhesive parts)
+    - Dremel or rotary tool with deburring bit
+    - Hacksaw (if fabricating bus bars)
+    - Metal file or sandpaper for deburring
+    - M3 x 0.5 tap (for jumper fabrication)
+  - Safety equipment:
+    - High voltage insulated gloves (properly sized)
+    - Safety glasses
+    - Insulated tools rated for high voltage work
+  - Vehicle support:
+    - Floor jack
+    - Jack stands rated for vehicle weight
+    - Dollies for battery pack (recommended: two 30" x 18" dollies with 1000lb+ capacity)
+- workspace requirements:
+  - Clean, dry, covered area with good lighting
+  - Flat, level concrete floor for safe vehicle lifting
+  - Sufficient space around vehicle (minimum 3ft on all sides) for pack removal
+  - Workbench or table for module rebuilding
+  - ESD-safe work surface for electronics
+  - Good ventilation
+  - Temperature controlled environment (important for NMC battery work)
 
 ## Materials
 
@@ -27,7 +91,7 @@
 
 ### Hardware
 
-- cork/felt/corrogated plastic spacers for cell height adjustment ([details](https://5by9.net/prune_batteries/module_rebuild.html))
+- cork/felt/corrogated plastic spacers for cell height adjustment ([details](module_rebuild.md))
 - bus bars and jumper materials, either machined or diy
   - machined
     - There seem to be too much variation in cells, so it's not recommended to use the machined bus bars.
@@ -40,11 +104,11 @@
 
 ## Battery Pack Removal  
 
-Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.html](https://5by9.net/prune_batteries/pack_removal.html) .
+Follow the detailed guide at [pack_removal.md](./pack_removal.md) .
 
 ## Module rebuilding
 
-- Follow the detailed guide at [https://5by9.net/prune\_batteries/module\_rebuild.html](https://5by9.net/prune_batteries/module_rebuild.html) .
+- Follow the detailed guide at [module_rebuild.md](./module_rebuild.md) .
 - Key steps include:
   - disassembling modules
   - modifying plastic cell holders
@@ -69,6 +133,8 @@ Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.ht
 
 ## Important Notes
 
+- Always follow proper [high voltage safety procedures](https://web.archive.org/web/20241222211352/http://mmc-manuals.ru/manuals/i-miev/online/Service_Manual/2017/54/html/M154940710001501ENG.HTM).
+- Take time to properly balance cells before installation if there are any that have varying voltages connect in parallel for a few days. (TODO: add details)
 - **WARNING**: NMC cells will be permanently damaged if charged (including regenerative braking) below 0°C (32°F). See [battery_chemistries.md](battery_chemistries.md) for more details and mitigation strategies.
 - Always follow proper high voltage safety procedures.
 - Take time to properly balance cells before installation if there are any that have varying voltages connect in parallel for a few days.
@@ -82,3 +148,10 @@ Follow the detailed guide at [https://5by9.net/prune\_batteries/pack\_removal.ht
 - <https://github.com/collin80/can_common> : FOSS can library
 - <https://github.com/collin80/due_can> : FOSS C++ canbus library for Arduino Due compatible boards
 - <https://myimiev.com/threads/main-traction-battery-upgrade-i-miev.5458/> : i-MiEV battery upgrade thread where this guide was created
+
+## Special Thanks
+
+- [jiminy](https://myimiev.com/members/jiminy.1606/) for bus bar design
+- [piev](https://myimiev.com/members/piev.2638/) for code and starting the main thread this is based on
+- [mradtke](https://myimiev.com/members/mradtke.1615/) and son Nicholas for creating the detailed pack removal and module rebuild instructions
+- [toecheese](https://myimiev.com/members/toecheese.4279/) for context contributions to the repo
