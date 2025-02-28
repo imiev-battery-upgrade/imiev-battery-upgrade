@@ -87,7 +87,7 @@
 > When sourcing cells, carefully review the [battery terminal specifications](battery_terminals.md) to ensure compatibility and avoid common manufacturing issues.
 
 - 88x (or 80x for post-2012 iOn/C-Zero) CATL NMC 93Ah cells
-- Alibaba sources: [1](https://www.alibaba.com/product-detail/Starmax-High-Power-Catl-3-7V_1600752172388.html) [2](https://www.alibaba.com/product-detail/Brand-New-CATL-Ternary-Lithium-Ion_1600494889608.html) [3](https://www.xihobattery.com/products/catl-93ah-37v-nmc-prismatic-rechargeable-lithium-ion-battery) [4](https://www.alibaba.com/product-detail/subject_1600869468591.html)
+- Alibaba sources: [1](https://www.alibaba.com/product-detail/XIHO-CATL-3-7V-93Ah-SVOLT_1601370520376.html) [2](https://www.alibaba.com/product-detail/Starmax-High-Power-Catl-3-7V_1600752172388.html) [3](https://www.alibaba.com/product-detail/Brand-New-CATL-Ternary-Lithium-Ion_1600494889608.html) [4](https://www.xihobattery.com/products/catl-93ah-37v-nmc-prismatic-rechargeable-lithium-ion-battery) [5](https://www.alibaba.com/product-detail/subject_1600869468591.html)
 
 ### Hardware
 

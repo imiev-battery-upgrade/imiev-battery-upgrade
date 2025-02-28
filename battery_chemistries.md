@@ -11,6 +11,24 @@
 - More temperature sensitive than LFP, especially when charging in cold weather
 - Main downside is they are more volatile/less stable than LFP
 
+### CATL 93Ah Cells
+
+- Dimensions: 172mm x 42mm x 90mm (very close to original LEV50)
+- Approximately 87Ah capacity within i-MiEV voltage range (4.1V-3.3V)
+- Successfully used in several i-MiEV upgrades
+
+### SVOLT NMC-90F Cells
+
+- Emerging alternative to CATL cells
+- Dimensions: 148mm x 39mm x 102mm (shorter but taller than LEV50)
+- Tested capacity: 68.5-71Ah at 30A load within i-MiEV voltage range (4.1V-3.3V)
+- Requires custom mounting solution due to height difference
+- Maximum continuous charge rate: 0.3C (27A) - may require CHAdeMO current limiting
+- Maximum pulse charge rate: 1C (90A) - suitable for regenerative braking
+- Custom tab welding and compression mounting recommended
+- Forum members working on 4S block designs and custom mounting solutions
+- Approximate cost: $25 per cell (as of early 2025)
+
 ### ⚠️ Cold Weather Operation Warning
 
 NMC cells will be permanently damaged if charged (including regenerative braking) below 0°C (32°F).
@@ -58,4 +76,4 @@ Not recommended due to:
 
 ## Current Recommendation
 
-Based on proven success and reasonable compromises, NMC cells (like the CATL 93Ah) appear to be the most practical upgrade path when combined with a CAN bridge. While LFP would offer some advantages, the voltage and physical compatibility issues make it impractical without major system modifications.
+Based on proven success and reasonable compromises, NMC cells (like the CATL 93Ah) appear to be the most practical upgrade path when combined with a CAN bridge. SVOLT NMC-90F cells are an emerging alternative that may offer a viable option with custom mounting solutions. While LFP would offer some advantages, the voltage and physical compatibility issues make it impractical without major system modifications.
