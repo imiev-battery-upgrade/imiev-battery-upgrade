@@ -45,7 +45,9 @@
     - Competence with multimeter usage and electrical measurements
     - Basic understanding of CAN bus systems
     - Ability to identify and prevent short circuits
-- [Arduino Due](https://docs.arduino.cc/hardware/due/) or [CANFDuino](https://github.com/togglebit/CANFDuino) for CAN spoofing [US reseller](<https://copperhilltech.com/arduino/>)
+- CAN bridge hardware options:
+  - [Arduino Due](https://docs.arduino.cc/hardware/due/) or [CANFDuino](https://github.com/togglebit/CANFDuino) for CAN spoofing [US reseller](<https://copperhilltech.com/arduino/>)
+  - STM32-based "MB CAN filter" board (~$8-10 on AliExpress) - see [Alternative CAN Bridge](#alternative-can-bridge-stm32) section
 - proper tools:
   - Basic tools:
     - Socket set with ratchets and extensions
@@ -97,7 +99,9 @@
     - There seem to be too much variation in cells, so it's not recommended to use the machined bus bars.
   - diy (follow 5by8.net guide)
     - [https://www.amazon.com/gp/product/B0BBDTQVYP/](https://www.amazon.com/gp/product/B0BBDTQVYP/?tag=forumyield-20)
-- Arduino Due or CANFDuino with CAN shields
+- CAN bridge hardware (choose one):
+  - Arduino Due or CANFDuino with CAN shields
+  - STM32F105-based "MB CAN filter" board from AliExpress (~$8-10)
 - wiring and connectors for CAN bridge
 
 ### Step-by-step process​
@@ -118,12 +122,46 @@ Follow the detailed guide at [pack_removal.md](./pack_removal.md) .
 
 ## CAN bridge setup  
 
+### Arduino Due Method (Original)
+
 - Install Arduino Due or CANFDuino
 - Download latest code from [can_bridge.ino](can_bridge.ino)
 - Connect to vehicle:
   - CAN0 to BMU pins 6 & 7
   - CAN1 to ECU
   - power from switched 12V
+
+### Alternative CAN Bridge (STM32)
+
+A more affordable alternative using STM32-based boards has been successfully tested by community members:
+
+**Hardware:**
+- STM32F105-based board marketed as "MB CAN filter" or similar on AliExpress (~$8-10)
+  - Search terms: "filter CAN universal mercedes STM32F105"
+  - Features dual CAN transceivers and STM32F105 microcontroller
+  - More robust for automotive environment than Arduino
+  - Lower power consumption and integrated transceivers
+
+**Software:**
+- Based on Dala's Nissan LEAF Battery Upgrade project: https://github.com/dalathegreat/Nissan-LEAF-Battery-Upgrade
+- Community member iso14000 has successfully ported piev's Arduino code to STM32
+- Sample code structure available at [can_bridge_stm32_sample.c](can_bridge_stm32_sample.c) - **WARNING: This is incomplete sample code only!**
+- Requires modification to bypass UUID lock in original code (comment out NVIC_SystemReset)
+- Compiled using Keil µVision or STM32CubeIDE
+
+**Installation:**
+- Power from EV-ECU control power source (C-107 pin 2) for key-switched operation
+- Same CAN connections as Arduino method
+- More compact installation due to smaller board size
+
+**Advantages over Arduino Due:**
+- Significantly lower cost (~$10 vs ~$50)
+- More automotive-grade with better power regulation
+- Smaller form factor
+- Integrated CAN transceivers
+- Lower power consumption
+
+**Status:** Successfully tested and validated by forum member iso14000 (May 2025)
 
 ## Testing & validation  
 
