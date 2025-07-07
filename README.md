@@ -147,6 +147,10 @@ A more affordable alternative using STM32-based boards has been successfully tes
 - Integrated CAN transceivers
 - Lower power consumption
 
+**Related STM32 content:**
+- https://github.com/EFeru/hoverboard-firmware-hack-FOC/wiki/How-to-Unlock-MCU-Flash
+- https://www.youtube.com/watch?v=LssrvVYLtp8
+
 ## Testing & validation  
 
 - Check all connections and voltages.
