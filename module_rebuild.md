@@ -4,23 +4,23 @@ This guide shows how an i-MiEV pack was rebuilt, replacing the 50ah LEV50s with 
 
 Challenges: The 94ah NMC batteries have a slightly different form factor and terminals that must be adapted to fit in the pack.
 
-![Old LEV50 battery](module_rebuild.assets/IMG_2531.JPG)
+![Old LEV50 battery](_attachments/IMG_2531_1751892503984215.JPG)
 
 *Old 50ah LEV50.*
 
-![New NMC battery with M8 terminals](module_rebuild.assets/IMG_2535.JPG)
+![New NMC battery with M8 terminals](_attachments/IMG_2535_1751892503980072.JPG)
 
 *New 94ah NMC. Note the M8 terminals (custom ordered instead of the default M6) to match the LEV50.*
 
-![Battery size comparison](module_rebuild.assets/IMG_2536.JPG)
+![Battery size comparison](_attachments/IMG_2536_17518925039985049.JPG)
 
 *The LEV50 (left) and NMC (right) have slightly different form factors. The NMC is slightly narrower than the LEV50.*
 
-![Height comparison of batteries](module_rebuild.assets/IMG_2537.JPG)
+![Height comparison of batteries](_attachments/IMG_2537_1751892504002529.JPG)
 
 *The NMC (foreground) is shorter than the LEV50 (background).*
 
-![Length comparison of batteries](module_rebuild.assets/IMG_2539.JPG)
+![Length comparison of batteries](_attachments/IMG_2539_17518925040066292.JPG)
 
 *The NMC (top) is slightly longer than the LEV50 (bottom).*
 
@@ -37,7 +37,7 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
     It is recommended to reinstall each rebuilt module in the same location from which it was removed in the pack. This avoids potentially needing to reprogram the BMU due to moving the CMUs. Consider numbering the modules and submodules before removal, or only removing and rebuilding a single module at a time, to ensure the modules are reinstalled in the same location from which they were removed in the pack.
 
-    ![8-cell battery module](module_rebuild.assets/IMG_2528.JPG)
+    ![8-cell battery module](_attachments/IMG_2528_1751892504011963.JPG)
 
     *An 8-cell module removed from the pack.*
 
@@ -45,71 +45,71 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
     A paint pen or nail polish work well for marking the positive ends.
 
-    ![Marked battery terminals](module_rebuild.assets/IMG_2554.JPG)
+    ![Marked battery terminals](_attachments/IMG_2554_1751892504019211.JPG)
 
     *Positive ends of cells marked before further disassembly.*
 
 3. Remove the mounting brackets holding the metal clam shell together.
 
-    ![Left mounting bracket removed](module_rebuild.assets/IMG_2557.JPG)
+    ![Left mounting bracket removed](_attachments/IMG_2557_1751892504024575.JPG)
 
     *Left bracket (connector side) removed.*
 
-    ![Right mounting bracket removed](module_rebuild.assets/IMG_2558.JPG)
+    ![Right mounting bracket removed](_attachments/IMG_2558_1751892504034296.JPG)
 
     *Right bracket removed.*
 
 4. Remove the top metal clam shell by prying it over the 8 plastic tabs.
 
-    ![Plastic tabs on clam shell](module_rebuild.assets/clam_shell_tabs.jpg)
+    ![Plastic tabs on clam shell](_attachments/clam_shell_tabs_1751892504029442.jpg)
 
     *Plastic tabs holding on the metal clam shell.*
 
-    ![Close up of plastic tabs](module_rebuild.assets/IMG_2707.JPG)
+    ![Close up of plastic tabs](_attachments/IMG_2707_1751892504041951.JPG)
 
     *Close up of two of the tabs.*
 
-    ![Top clam shell removed](module_rebuild.assets/IMG_2560.JPG)
+    ![Top clam shell removed](_attachments/IMG_2560_175189250405269.JPG)
 
     *Top metal clam shell removed.*
 
 5. Pry off the plastic top cover, which is held on by tabs.
 
-    ![Plastic cover removed](module_rebuild.assets/IMG_2561.JPG)
+    ![Plastic cover removed](_attachments/IMG_2561_1751892504047725.JPG)
 
     *Plastic cover removed.*
 
 6. Remove the cable between the CMU and daughter board.
 
-    ![CMU cable connection](module_rebuild.assets/daughter_board_cable.jpg)
+    ![CMU cable connection](_attachments/daughter_board_cable_1751892504059765.jpg)
 
     *Cable between the CMU and daughter board. Depress the tab (circled) to separate the plug from the socket. Repeat on the other end.*
 
-    ![CMU cable removed](module_rebuild.assets/IMG_2563.JPG)
+    ![CMU cable removed](_attachments/IMG_2563_1751892504068529.JPG)
 
     *Cable removed.*
 
 7. Remove the bus bar between the two submodules.
 
-    ![Bus bar connecting submodules](module_rebuild.assets/bus_bar_linking_modules.jpg)
+    ![Bus bar connecting submodules](_attachments/bus_bar_linking_modules_1751892504087863.jpg)
 
     *Remove the bus bar linking the two submodules.*
 
-    ![Bus bar removed from submodules](module_rebuild.assets/IMG_2566.JPG)
+    ![Bus bar removed from submodules](_attachments/IMG_2566_1751892504075469.JPG)
 
     *Bus bar removed.*
 
 8. Remove the bottom metal clam shell by prying it over the 8 plastic tabs.
 
-    ![Bottom clam shell plastic tabs](module_rebuild.assets/IMG_2569.JPG)
+    ![Bottom clam shell plastic tabs](_attachments/IMG_2569_1751892504092445.JPG)
 
     *Plastic tabs holding on the metal clam shell.*
 
-    ![Module on side for removal](module_rebuild.assets/IMG_2567.JPG)
+    ![Module on side for removal](_attachments/IMG_2567_175189250408759.JPG)
 
     *It may be helpful to place the module on its side to free the battery cage from the clam shell so as not to be fighting against gravity.*
 
-    ![Bottom clam shell removed](module_rebuild.assets/IMG_2571.JPG)
+    ![Bottom clam shell removed](_attachments/IMG_2571_1751892504120824.JPG)
 
     *Bottom clam shell removed.*
 
@@ -120,11 +120,11 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
     > [!WARNING]
     > The circuit board is delicate. By comparison, the batteries have great mass. The reason for removing the screws now is so that any movement/shiftage of the batteries during disassembly doesn't result in a force that is transferred to and breaks the circuit board.
 
-    ![CMU daughter board screw locations](module_rebuild.assets/daughter_board_screws_removing.jpg)
+    ![CMU daughter board screw locations](_attachments/daughter_board_screws_removing_1751892504109699.jpg)
 
     *Remove the four circled screws.*
 
-    ![CMU screws removed](module_rebuild.assets/IMG_2576.JPG)
+    ![CMU screws removed](_attachments/IMG_2576_17518925041209202.JPG)
 
     *Screws removed.*
 
@@ -132,23 +132,23 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
     Note that there is adhesive at the circular points. Care must be taken to avoid breaking the plastic when severing the adhesive.
 
-    ![Adhesive points on webbing](module_rebuild.assets/cage_top_webbing_adhesive.jpg)
+    ![Adhesive points on webbing](_attachments/cage_top_webbing_adhesive_175189250410412.jpg)
 
     *There is adhesive at the circular points.*
 
-    ![Webbing locator tab detail](module_rebuild.assets/cage_top_webbing_locator_tab.jpg)
+    ![Webbing locator tab detail](_attachments/cage_top_webbing_locator_tab_17518925041330938.jpg)
 
     *Care must be taken when slicing the adhesive at the circular points (green circle) not to sever the nearby locating tab (red circle).*
 
-    ![Using putty knife to cut adhesive](module_rebuild.assets/IMG_2580.JPG)
+    ![Using putty knife to cut adhesive](_attachments/IMG_2580_1751892504128587.JPG)
 
     *A putty knife with light tapping can be used to cut the adhesive without breaking the plastic.*
 
-    ![Putty knife between plastic pieces](module_rebuild.assets/IMG_2581.JPG)
+    ![Putty knife between plastic pieces](_attachments/IMG_2581_1751892504138564.JPG)
 
     *Wedge the putty knife between the two pieces of plastic at an adhesion point. Gently tap the putty knife to cut the adhesive. Repeat for the remaining 6 (total 7) adhesion points*
 
-    ![Top webbing removed](module_rebuild.assets/IMG_2585.JPG)
+    ![Top webbing removed](_attachments/IMG_2585_1751892504144211.JPG)
 
     *Remove the top webbing, which is now only held on by plastic tabs.*
 
@@ -156,15 +156,15 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
     Push the cells out from the bottom. The batteries are a very tight fit and it will take some force. Tape and rubber spacers between the batteries mean all four batteries will likely move as an unit.
 
-    ![Flipping cage to remove batteries](module_rebuild.assets/IMG_2662.JPG)
+    ![Flipping cage to remove batteries](_attachments/IMG_2662_1751892504149281.JPG)
 
     *To start the batteries moving, it may be helpful to flip the cage upside down, block up the edges of the cage, and push the bottom of the batteries down.*
 
-    ![Batteries moving as unit](module_rebuild.assets/IMG_2586.JPG)
+    ![Batteries moving as unit](_attachments/IMG_2586_175189250415579.JPG)
 
     *The high coefficient of friction on the rubber spacers means the batteries will likely move as an unit.*
 
-    ![All batteries removed](module_rebuild.assets/IMG_2588.JPG)
+    ![All batteries removed](_attachments/IMG_2588_1751892504166367.JPG)
 
     *Batteries removed.*
 
@@ -172,17 +172,17 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
 1. Mark the polarity on the inside of the battery cage. This will ease in reassembly and reduce the probability of an error.
 
-    ![Battery cage polarity markings](module_rebuild.assets/battery_cage_polarity_inside.jpg)
+    ![Battery cage polarity markings](_attachments/battery_cage_polarity_inside_17518925041765819.jpg)
 
     *Extend the polarity marks on the outside of the battery cage to the inside.*
 
 2. Mark the polarity on the new batteries. This will ease in reassembly and reduce the probability of an error.
 
-    ![Unmarked battery terminals](module_rebuild.assets/IMG_2669.JPG)
+    ![Unmarked battery terminals](_attachments/IMG_2669_1751892504160884.JPG)
 
     *Polarity is not well-marked on the new terminals.*
 
-    ![Marking battery polarity](module_rebuild.assets/IMG_2670.JPG)
+    ![Marking battery polarity](_attachments/IMG_2670_1751892504171788.JPG)
 
     *A paint pen or nail polish work well for marking the polarity.*
 
@@ -190,47 +190,47 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
     A snug fit is OK, as the batteries shouldn't rattle around. Too tight and there is danger of breaking the plastic cage or tearing the outer insulation of the battery when inserting.
 
-    ![Battery length comparison](module_rebuild.assets/battery_cage_battery_length.jpg)
+    ![Battery length comparison](_attachments/battery_cage_battery_length_17518925041825511.jpg)
 
     *The new NMC batteries are slightly longer and don't fit in the base of the battery cage.*
 
-    ![Left side battery overhang](module_rebuild.assets/IMG_2594.JPG)
+    ![Left side battery overhang](_attachments/IMG_2594_17518925041920269.JPG)
 
     *Battery overhang on left.*
 
-    ![Right side battery overhang](module_rebuild.assets/IMG_2595.JPG)
+    ![Right side battery overhang](_attachments/IMG_2595_17518925041874182.JPG)
 
     *Battery overhang on right.*
 
-    ![Material removal area](module_rebuild.assets/battery_cage_bottom.jpg)
+    ![Material removal area](_attachments/battery_cage_bottom_1751892504202508.jpg)
 
     *Material removal area.*
 
-    ![A Dremel or rotary tool with a deburring bit can be used to remove the material](module_rebuild.assets/IMG_2607.JPG)
+    ![A Dremel or rotary tool with a deburring bit can be used to remove the material](_attachments/IMG_2607_17518925041974761.JPG)
 
     *A Dremel or rotary tool with a deburring bit can be used to remove the material.*
 
-    ![Deburring bit](module_rebuild.assets/IMG_2611.JPG)
+    ![Deburring bit](_attachments/IMG_2611_1751892504206351.JPG)
 
     *Deburring bit.*
 
-    ![1-2mm of material removed. Repeat on the opposite side](module_rebuild.assets/IMG_2612.JPG)
+    ![1-2mm of material removed. Repeat on the opposite side](_attachments/IMG_2612_1751892504211755.JPG)
 
     *1-2mm of material removed. Repeat on the opposite side.*
 
-    ![Test fit](module_rebuild.assets/IMG_2618.JPG)
+    ![Test fit](_attachments/IMG_2618_175189250421683.JPG)
 
     *Test fit.*
 
-    ![Note the top of the battery lines up with a top line on the battery cage](module_rebuild.assets/IMG_2619.JPG)
+    ![Note the top of the battery lines up with a top line on the battery cage](_attachments/IMG_2619_1751892504222469.JPG)
 
     *Note the top of the battery lines up with a top line on the battery cage.*
 
-    ![Flip the battery cage over and verify that the battery fully inserts to the bottom of the cage](module_rebuild.assets/IMG_2622.JPG)
+    ![Flip the battery cage over and verify that the battery fully inserts to the bottom of the cage](_attachments/IMG_2622_1751892504230002.JPG)
 
     *Flip the battery cage over and verify that the battery fully inserts to the bottom of the cage.*
 
-    ![Battery seated with no space between the bottom of the battery and the cage](module_rebuild.assets/battery_cage_battery_seated.jpg)
+    ![Battery seated with no space between the bottom of the battery and the cage](_attachments/battery_cage_battery_seated_17518925042247272.jpg)
 
     *Battery seated with no space between the bottom of the battery and the cage.*
 
@@ -239,31 +239,31 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
     > [!TIP]
     > Corrugated plastic is available in 4mm thickness and has some other nice properties: easy to cut, allows air circulation for cooling, and can often be obtained for free (as discarded sign boards from elections, etc.).
 
-    ![Side view of corrugated plastic](module_rebuild.assets/IMG_2626.JPG)
+    ![Side view of corrugated plastic](_attachments/IMG_2626_1751892504234263.JPG)
 
     *Side view of corrugated plastic.*
 
-    ![Eight 1 3/4" x 3/8" and four 1 3/4" x 1 1/4" spacers are needed for each cage](module_rebuild.assets/IMG_2627.JPG)
+    ![Eight 1 3/4" x 3/8" and four 1 3/4" x 1 1/4" spacers are needed for each cage](_attachments/IMG_2627_1751892504240076.JPG)
 
     *Eight 1 3/4" x 3/8" and four 1 3/4" x 1 1/4" spacers are needed for each cage.*
 
-    ![Use double-sided tape to affix the spacers to the bottom of the battery cage](module_rebuild.assets/IMG_2629.JPG)
+    ![Use double-sided tape to affix the spacers to the bottom of the battery cage](_attachments/IMG_2629_1751892504245609.JPG)
 
     *Use double-sided tape to affix the spacers to the bottom of the battery cage.*
 
-    ![Locations for spacers](module_rebuild.assets/battery_cage_spacer_locations.jpg)
+    ![Locations for spacers](_attachments/battery_cage_spacer_locations_175189250425204.jpg)
 
     *Locations for spacers.*
 
-    ![Spacers installed](module_rebuild.assets/IMG_2631.JPG)
+    ![Spacers installed](_attachments/IMG_2631_17518925042581701.JPG)
 
     *Spacers installed.*
 
-    ![Battery installed on spacers](module_rebuild.assets/IMG_2634.JPG)
+    ![Battery installed on spacers](_attachments/IMG_2634_1751892504263669.JPG)
 
     *Battery installed on spacers.*
 
-    ![Battery now sits slightly above the line in the battery cage](module_rebuild.assets/IMG_2638.JPG)
+    ![Battery now sits slightly above the line in the battery cage](_attachments/IMG_2638_1751892504268196.JPG)
 
     *Battery now sits slightly above the line in the battery cage.*
 
@@ -271,21 +271,21 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
 1. Affix 4mm spacers between the batteries.
 
-    ![Three 1 1/2" x 1 1/2" spacers are needed for each set of four batteries](module_rebuild.assets/IMG_2640.JPG)
+    ![Three 1 1/2" x 1 1/2" spacers are needed for each set of four batteries](_attachments/IMG_2640_1751892504273325.JPG)
 
     *Three 1 1/2" x 1 1/2" spacers are needed for each set of four batteries.*
 
-    ![3/4" wide foam-backed double sided tape](module_rebuild.assets/IMG_2642.JPG)
+    ![3/4" wide foam-backed double sided tape](_attachments/IMG_2642_1751892504278489.JPG)
 
     *3/4" wide foam-backed double sided tape.*
 
-    ![Shape of the spacer isn't critical. 1 1/2" x 1 1/2" was chosen as having approximately the same surface area (right) as the original spacer (left), while being a multiple of the 3/4" tape, which was the most conomical to purchase](module_rebuild.assets/IMG_2644.JPG)
+    ![Shape of the spacer isn't critical. 1 1/2" x 1 1/2" was chosen as having approximately the same surface area (right) as the original spacer (left), while being a multiple of the 3/4" tape, which was the most conomical to purchase](_attachments/IMG_2644_17518925042834911.JPG)
 
     *Shape of the spacer isn't critical. 1 1/2" x 1 1/2" was chosen as having approximately the same surface area (right) as the original spacer (left), while being a multiple of the 3/4" tape, which was the most economical to purchase.*
 
 2. Install the batteries in the battery cage. Pay attention to polarity.
 
-    ![Ensure the batteries are fully seated and polarity is correct. Note the spacers between the batteries](module_rebuild.assets/IMG_2645.JPG)
+    ![Ensure the batteries are fully seated and polarity is correct. Note the spacers between the batteries](_attachments/IMG_2645_1751892504288478.JPG)
 
     *Ensure the batteries are fully seated and polarity is correct. Note the spacers between the batteries.*
 
@@ -293,19 +293,19 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
     Note: These jumpers serve as both electrical conductors for measuring the battery voltage and thermal conductors for measuring the battery temperature.
 
-    ![The LEV50s have an extra set of mounting holes, used to attach the CMU electrically and thermally to the battery](module_rebuild.assets/lev50_mounting_holes.jpg/lev50_mounting_holes.jpg)
+    ![The LEV50s have an extra set of mounting holes, used to attach the CMU electrically and thermally to the battery](_attachments/lev50_mounting_holes_1751892856373943.jpg)
 
     *The LEV50s have an extra set of mounting holes, used to attach the CMU electrically and thermally to the battery.*
 
-    ![Bus bars were used to construct the jumpers. The 56mm length permitted the construction of a jumper, and a washer from the waste. The 6mm slots had to be ground out for the M8 terminals, as bus bars with 8mm lots weren't readily available](module_rebuild.assets/IMG_2671.JPG)
+    ![Bus bars were used to construct the jumpers. The 56mm length permitted the construction of a jumper, and a washer from the waste. The 6mm slots had to be ground out for the M8 terminals, as bus bars with 8mm lots weren't readily available](_attachments/IMG_2671_1751892504304107.JPG)
 
     *Bus bars were used to construct the jumpers. The 56mm length permitted the construction of a jumper, and a washer from the waste. The 6mm slots had to be ground out for the M8 terminals, as bus bars with 8mm slots weren't readily available.*
 
-    ![Jumpers and washers (top) were fabricated out bus bars (bottom). These were cut with a hack saw and then sanded to remove flashing and ensure good electrical contact for the high current application. The hole as tapped as an M3 x 0.5 to match the threads of the existing screws](module_rebuild.assets/IMG_2543.JPG)
+    ![Jumpers and washers (top) were fabricated out bus bars (bottom). These were cut with a hack saw and then sanded to remove flashing and ensure good electrical contact for the high current application. The hole as tapped as an M3 x 0.5 to match the threads of the existing screws](_attachments/IMG_2543_1751892504293611.JPG)
 
     *Jumpers and washers (top) were fabricated out bus bars (bottom). These were cut with a hack saw and then sanded to remove flashing and ensure good electrical contact for the high current application. The hole was tapped as an M3 x 0.5 to match the threads of the existing screws.*
 
-    ![Jumper installed on the new battery (bottom) to provide the connection to the CMU. Old battery (top) shown for comparison. Washer also installed on the new battery as a spacer, so that both terminals are the ame height](module_rebuild.assets/IMG_2553.JPG)
+    ![Jumper installed on the new battery (bottom) to provide the connection to the CMU. Old battery (top) shown for comparison. Washer also installed on the new battery as a spacer, so that both terminals are the ame height](_attachments/IMG_2553_1751892504298835.JPG)
 
     *Jumper installed on the new battery (bottom) to provide the connection to the CMU. Old battery (top) shown for comparison. Washer also installed on the new battery as a spacer, so that both terminals are the same height.*
 
@@ -316,11 +316,11 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
     > [!WARNING]
     > Take care that the jumpers do not rotate and touch adjacent battery terminals, as this could cause a short circuit.
 
-    ![Orient the CMU daughter board and battery cage based on the cut outs for the terminals. Add jumpers on the terminals that connect to the CMU board. Add washers on the remaining terminals](module_rebuild.assets/installing_jumpers.jpg)
+    ![Orient the CMU daughter board and battery cage based on the cut outs for the terminals. Add jumpers on the terminals that connect to the CMU board. Add washers on the remaining terminals](_attachments/installing_jumpers_1751892504328647.jpg)
 
     *Orient the CMU daughter board and battery cage based on the cut outs for the terminals. Add jumpers on the terminals that connect to the CMU board. Add washers on the remaining terminals.*
 
-    ![Tip: Nuts can be tightened against the jumpers temporarily to keep the jumpers from rotating and shorting to adjacent terminals when the webbing is installed in the subsequent step](module_rebuild.assets/IMG_2712.JPG)
+    ![Tip: Nuts can be tightened against the jumpers temporarily to keep the jumpers from rotating and shorting to adjacent terminals when the webbing is installed in the subsequent step](_attachments/IMG_2712_1751892504311129.JPG)
 
     *Tip: Nuts can be tightened against the jumpers temporarily to keep the jumpers from rotating and shorting to adjacent terminals when the webbing is installed in the subsequent step.*
 
@@ -329,7 +329,7 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
     > [!WARNING]
     > Take care that the jumpers do not rotate and touch adjacent battery terminals and cause a short circuit during this process. Once the webbing is on, the jumpers will no longer be able to touch adjacent terminals.
 
-    ![Plastic webbing with CMU daughter board installed on battery cage](module_rebuild.assets/IMG_2650.JPG)
+    ![Plastic webbing with CMU daughter board installed on battery cage](_attachments/IMG_2650_1751892504322616.JPG)
 
     *Plastic webbing with CMU daughter board installed on battery cage.*
 
@@ -341,19 +341,19 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
     > [!WARNING]
     > With the webbing positioned via the plastic positioning tabs, the top of the jumpers should align with the bottom of the CMU board. If not, it may be necessary to adjust the shimming of the batteries. Non-neutral positioning may result in breaking the board later when the screws are tightened.
 
-    ![Align the threaded holes on the jumpers with the CMU board holes. A nut, no tighter than finger tight, can be used on the terminal to hold the jumper in place if necessary](module_rebuild.assets/IMG_2652.JPG)
+    ![Align the threaded holes on the jumpers with the CMU board holes. A nut, no tighter than finger tight, can be used on the terminal to hold the jumper in place if necessary](_attachments/IMG_2652_1751892504322809.JPG)
 
     *Align the threaded holes on the jumpers with the CMU board holes. A nut, no tighter than finger tight, can be used on the terminal to hold the jumper in place if necessary.*
 
-    ![Floating tabs on the circuit board allow for slight, independent movement of the batteries from the board. These are delicate. Too much stress or movement and these will break](module_rebuild.assets/circuit_board_flex_front.jpg)
+    ![Floating tabs on the circuit board allow for slight, independent movement of the batteries from the board. These are delicate. Too much stress or movement and these will break](_attachments/circuit_board_flex_front_1751892504339487.jpg)
 
     *Floating tabs on the circuit board allow for slight, independent movement of the batteries from the board. These are delicate. Too much stress or movement and these will break. Shown here mounted to the original LEV 50.*
 
-    ![View of the floating tab from the back side of the circuit board (not visible at this point in assembly)](module_rebuild.assets/IMG_2729.JPG)
+    ![View of the floating tab from the back side of the circuit board (not visible at this point in assembly)](_attachments/IMG_2729_17518925043339531.JPG)
 
     *View of the floating tab from the back side of the circuit board (not visible at this point in assembly).*
 
-    ![Screws installed but not tightened](module_rebuild.assets/IMG_2653.JPG)
+    ![Screws installed but not tightened](_attachments/IMG_2653_17518925043478029.JPG)
 
     *Screws installed but not tightened.*
 
@@ -362,7 +362,7 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
     > [!WARNING]
     > Do not tighten a nut on a jumper unless there is a bus bar installed to prevent the torque from transferring to the jumper and the delicate CMU board.
 
-    ![Install bus bars and nuts](module_rebuild.assets/installing_bus_bars.jpg)
+    ![Install bus bars and nuts](_attachments/installing_bus_bars_1751892504359585.jpg)
 
     *Install bus bars and nuts.*
 
@@ -371,7 +371,7 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
     > [!WARNING]
     > Do not tighten a CMU screw unless the jumper is well-supported (bus bar and nut, or just nut) on the battery terminal end. Else, the jumper will tilt down and stress the CMU board. If adding a terminal nut directly on top of a jumper, tighten only to finger tight to avoid transferring a large torque to the CMU board via the jumper.
 
-    ![Add a terminal nut (finger tight only) to the unsupported jumper to prevent the jumper from tilting down and stressing the circuit board while tightening the screw](module_rebuild.assets/tightening_screws.jpg)
+    ![Add a terminal nut (finger tight only) to the unsupported jumper to prevent the jumper from tilting down and stressing the circuit board while tightening the screw](_attachments/tightening_screws_175189250436522.jpg)
 
     *Add a terminal nut (finger tight only) to the unsupported jumper to prevent the jumper from tilting down and stressing the circuit board while tightening the screw.*
 
@@ -379,13 +379,13 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
 1. Measure the voltage of the submodule.
 
-    ![Voltage will depend on the state of charge of the cells, but should be approximately 4 * 3.7 volts = 14.8 volts](module_rebuild.assets/IMG_2715.JPG)
+    ![Voltage will depend on the state of charge of the cells, but should be approximately 4 * 3.7 volts = 14.8 volts](_attachments/IMG_2715_1751892504353921.JPG)
 
     *Voltage will depend on the state of charge of the cells, but should be approximately 4 * 3.7 volts = 14.8 volts.*
 
 2. Rebuild the second submodule in the same fashion.
 
-    ![Note that the CMU main board uses 5 jumpers instead of 4](module_rebuild.assets/cmu_installing_jumpers.jpg)
+    ![Note that the CMU main board uses 5 jumpers instead of 4](_attachments/cmu_installing_jumpers_17518925043717802.jpg)
 
     *Note that the CMU main board uses 5 jumpers instead of 4.*
 
@@ -393,41 +393,41 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
 1. Reinstall the bottom clam shell on both submodules.
 
-    ![Note the positioning and orientation of the submodules and clam shell](module_rebuild.assets/IMG_2687.JPG)
+    ![Note the positioning and orientation of the submodules and clam shell](_attachments/IMG_2687_1751892504377661.JPG)
 
     *Note the positioning and orientation of the submodules and clam shell.*
 
-    ![Bottom clam shell installed](module_rebuild.assets/IMG_2688.JPG)
+    ![Bottom clam shell installed](_attachments/IMG_2688_175189250439027.JPG)
 
     *Bottom clam shell installed.*
 
 2. Reinstall the cable between the CMU main board and daughter board.
 
-    ![Installing the jumper cable](module_rebuild.assets/IMG_2690.JPG)
+    ![Installing the jumper cable](_attachments/IMG_2690_1751892504408801.JPG)
 
     *Installing the jumper cable.*
 
 3. Reinstall the bus bar between the two submodules. Tighten nuts according to specification.
 
-    ![Install the bus bar between the two submodules. Tighten nuts according to specification](module_rebuild.assets/bus_bar_between_submodules.jpg)
+    ![Install the bus bar between the two submodules. Tighten nuts according to specification](_attachments/bus_bar_between_submodules_17518925044083042.jpg)
 
     *Install the bus bar between the two submodules. Tighten nuts according to specification.*
 
 4. Reinstall the plastic cover.
 
-    ![Plastic cover reinstalled](module_rebuild.assets/IMG_2694.JPG)
+    ![Plastic cover reinstalled](_attachments/IMG_2694_1751892504384494.JPG)
 
     *Plastic cover reinstalled.*
 
 5. Check the voltage of the module.
 
-    ![Voltage will depend on the state of charge of the batteries, but should be approximately 8 * 3.7 = 29.6 volts](module_rebuild.assets/IMG_2695.JPG)
+    ![Voltage will depend on the state of charge of the batteries, but should be approximately 8 * 3.7 = 29.6 volts](_attachments/IMG_2695_1751892504395612.JPG)
 
     *Voltage will depend on the state of charge of the batteries, but should be approximately 8 * 3.7 = 29.6 volts.*
 
 6. Reinstall the top metal clam shell.
 
-    ![Top clam shell snapped onto the plastic tabs](module_rebuild.assets/IMG_2697.JPG)
+    ![Top clam shell snapped onto the plastic tabs](_attachments/IMG_2697_1751892504415261.JPG)
 
     *Top clam shell snapped onto the plastic tabs.*
 
@@ -435,11 +435,11 @@ Challenges: The 94ah NMC batteries have a slightly different form factor and ter
 
     Oversize holes result in the brackets having play on the studs, so it is recommended to not tighten the bracket nuts until fitting the module back into the pack.
 
-    ![Left bracket (connector side) reinstalled](module_rebuild.assets/IMG_2698.JPG)
+    ![Left bracket (connector side) reinstalled](_attachments/IMG_2698_1751892504419869.JPG)
 
     *Left bracket (connector side) reinstalled.*
 
-    ![Right bracket reinstalled](module_rebuild.assets/IMG_2699.JPG)
+    ![Right bracket reinstalled](_attachments/IMG_2699_1751892504425451.JPG)
 
     *Right bracket reinstalled.*
 

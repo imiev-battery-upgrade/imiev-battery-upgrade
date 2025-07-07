@@ -3,7 +3,7 @@
 > [!NOTE]
 > This is an unofficial guide created by community members. We are not affiliated with, endorsed by, or connected to Mitsubishi Motors Corporation in any way. "Mitsubishi" and "i-MiEV" are registered trademarks of Mitsubishi Motors Corporation. All trademarks are the property of their respective owners.
 
-![i-MiEV](./miev.svg)
+![i-MiEV](_attachments/miev_1751892504123232.svg)
 
 ## Prerequisites
 
@@ -122,14 +122,9 @@ Follow the detailed guide at [pack_removal.md](./pack_removal.md) .
 
 ## CAN bridge setup  
 
-### Arduino Due Method (Original)
+### Arduino Due or CANFDuino
 
-- Install Arduino Due or CANFDuino
-- Download latest code from [can_bridge.ino](can_bridge.ino)
-- Connect to vehicle:
-  - CAN0 to BMU pins 6 & 7
-  - CAN1 to ECU
-  - power from switched 12V
+- Follow the detailed instructions in [mitm.md](mitm.md) adapted from https://5by9.net/prune_batteries/mitm.html
 
 ### Alternative CAN Bridge (STM32)
 
@@ -139,20 +134,11 @@ A more affordable alternative using STM32-based boards has been successfully tes
 - STM32F105-based board marketed as "MB CAN filter" or similar on AliExpress (~$8-10)
   - Search terms: "filter CAN universal mercedes STM32F105"
   - Features dual CAN transceivers and STM32F105 microcontroller
-  - More robust for automotive environment than Arduino
-  - Lower power consumption and integrated transceivers
-
+  
 **Software:**
 - Based on Dala's Nissan LEAF Battery Upgrade project: https://github.com/dalathegreat/Nissan-LEAF-Battery-Upgrade
 - Community member iso14000 has successfully ported piev's Arduino code to STM32
-- Sample code structure available at [can_bridge_stm32_sample.c](can_bridge_stm32_sample.c) - **WARNING: This is incomplete sample code only!**
-- Requires modification to bypass UUID lock in original code (comment out NVIC_SystemReset)
-- Compiled using Keil µVision or STM32CubeIDE
-
-**Installation:**
-- Power from EV-ECU control power source (C-107 pin 2) for key-switched operation
-- Same CAN connections as Arduino method
-- More compact installation due to smaller board size
+- Follow instructions https://github.com/iso14000/MIevM
 
 **Advantages over Arduino Due:**
 - Significantly lower cost (~$10 vs ~$50)
@@ -160,8 +146,6 @@ A more affordable alternative using STM32-based boards has been successfully tes
 - Smaller form factor
 - Integrated CAN transceivers
 - Lower power consumption
-
-**Status:** Successfully tested and validated by forum member iso14000 (May 2025)
 
 ## Testing & validation  
 
@@ -177,7 +161,6 @@ A more affordable alternative using STM32-based boards has been successfully tes
 - Always follow proper high voltage safety procedures.
 - Take time to properly balance cells before installation if there are any that have varying voltages connect in parallel for a few days.
 - Document original wiring and connections.
-- The CAN bridge code is still being refined and improved.
 
 ## See also
 
@@ -191,5 +174,6 @@ A more affordable alternative using STM32-based boards has been successfully tes
 
 - [jiminy](https://myimiev.com/members/jiminy.1606/) for bus bar design
 - [piev](https://myimiev.com/members/piev.2638/) for code and starting the main thread this is based on
-- [mradtke](https://myimiev.com/members/mradtke.1615/) and son Nicholas for creating the detailed pack removal and module rebuild instructions
+- [mradtke](https://myimiev.com/members/mradtke.1615/) and son Nicholas for creating the detailed pack removal, module rebuild, and MITM instructions
 - [toecheese](https://myimiev.com/members/toecheese.4279/) for context contributions to the repo
+- [iso14000](https://myimiev.com/members/iso14000.4256/) for porting piev's code to STM32
