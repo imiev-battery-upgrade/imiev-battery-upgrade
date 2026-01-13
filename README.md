@@ -139,6 +139,7 @@ A more affordable alternative using STM32-based boards has been successfully tes
 - Based on Dala's Nissan LEAF Battery Upgrade project: https://github.com/dalathegreat/Nissan-LEAF-Battery-Upgrade
 - Community member iso14000 has successfully ported piev's Arduino code to STM32
 - Follow instructions https://github.com/iso14000/MIevM
+- **New improved repo (untested):** https://github.com/bonybrown/imiev-bmu-mitm
 
 **Advantages over Arduino Due:**
 - Significantly lower cost (~$10 vs ~$50)
