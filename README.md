@@ -48,6 +48,7 @@
 - CAN bridge hardware options:
   - [Arduino Due](https://docs.arduino.cc/hardware/due/) or [CANFDuino](https://github.com/togglebit/CANFDuino) for CAN spoofing [US reseller](<https://copperhilltech.com/arduino/>)
   - STM32-based "MB CAN filter" board (~$8-10 on AliExpress) - see [Alternative CAN Bridge](#alternative-can-bridge-stm32) section
+  - [MRS CAN Gateway for Citroen C-Zero](https://codeberg.org/jdthis/MRS-CAN-Gateway-Citroen-C-Zero) - see [MRS CAN Gateway](#mrs-can-gateway) section
 - proper tools:
   - Basic tools:
     - Socket set with ratchets and extensions
@@ -102,6 +103,7 @@
 - CAN bridge hardware (choose one):
   - Arduino Due or CANFDuino with CAN shields
   - STM32F105-based "MB CAN filter" board from AliExpress (~$8-10)
+  - MRS CAN Gateway for Citroen C-Zero
 - wiring and connectors for CAN bridge
 
 ### Step-by-step process​
@@ -151,6 +153,10 @@ A more affordable alternative using STM32-based boards has been successfully tes
 **Related STM32 content:**
 - https://github.com/EFeru/hoverboard-firmware-hack-FOC/wiki/How-to-Unlock-MCU-Flash
 - https://www.youtube.com/watch?v=LssrvVYLtp8
+
+### MRS CAN Gateway
+
+Another MITM option is the [MRS CAN Gateway for Citroen C-Zero](https://codeberg.org/jdthis/MRS-CAN-Gateway-Citroen-C-Zero).
 
 ## Testing & validation  
 
